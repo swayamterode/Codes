@@ -6,8 +6,7 @@ void towerOfHanoi(int n, char from_rod,
 {
 	if (n == 1)
 	{
-		cout << "Move disk 1 from rod " << from_rod <<
-							" to rod " << to_rod<<endl; //base condition
+		cout << "Move disk 1 from rod " << from_rod <<" to rod " << to_rod<<endl; //base condition
 		return;
 	}
 	towerOfHanoi(n - 1, from_rod, aux_rod, to_rod);             // recursive condition
