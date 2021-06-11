@@ -5,4 +5,5 @@ int main (){
     for (int x:array){
     cout<<x<<endl;
     }
+    return 0;
 }

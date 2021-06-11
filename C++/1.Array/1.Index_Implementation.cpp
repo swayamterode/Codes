@@ -8,4 +8,5 @@ int main (){
     cout<<Array[3]<<endl; // This will print 4
     cout<<Array[4]<<endl; // This will print 5
     cout<<Array[5]<<endl; // This will print 6
+    return 0;
 }
