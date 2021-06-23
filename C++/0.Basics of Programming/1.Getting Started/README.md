@@ -458,3 +458,113 @@ So, we can effectively conclude that by continuously dividing a number and keepi
 
 
 </detials>
+</details>
+</details>
+
+## [5.Digits Of A Number](https://github.com/swayamterode/Codes/blob/main/C%2B%2B/0.Basics%20of%20Programming/1.Getting%20Started/5.Digits_Of_A_Number.cpp)
+
+<details>
+<summary>Click to expand!</summary>
+
+  
+  ``` plain text
+1. You've to display the digits of a number.
+2. Take as input "n", the number for which digits have to be displayed.
+3. Print the digits of the number line-wise.
+```
+  
+  ### Input Format
+  
+``` plain text
+"n" where n is any integer.
+```
+  
+## Output Format
+  ``` Plain text
+d1
+d2
+d3
+... digits of the number
+```
+## Constraints
+
+  ``` plain text
+1 <= n < 10^9
+  ```
+  
+## Sample Input
+
+  ``` plain text
+65784383
+```
+## Sample Output
+
+  ``` plain text
+6
+5
+7
+8
+4
+3
+8
+3
+```
+  
+</detials>
+
+
+<h2>Editorial</h2>
+
+<details>
+<summary>Click to expand!</summary>
+  
+## "Numbers constitute the only universal language. They rule the universe."
+
+## Question:
+  
+``` plain text
+
+You've to display the digits of a number.
+Take as input "n", the number for which digits have to be displayed.
+Print the digits of the number line-wise.
+```
+  
+ ## Input format
+  
+``` plain text
+
+"n" where n is any integer
+```
+  
+## Output format
+  
+``` plain text
+d1
+
+d2
+
+d3
+
+... digits of the number
+
+```
+  
+## Constraints
+
+``` plain text
+1 <= n <= 10^9
+```
+  
+## Solution Approach:
+
+We have to print a given number from left to right in a vertical fashion. For instance, let us take 754 We start dividing it with 100(10^(3-1)) where 3 is the number of digits in 754. After each division, the divisor is divided by 10. So our objective is cleared as to first, we have to find the number of digits in the given number.
+
+Then, we start dividing with 10^(number of digits-1)as the first divisor and subsequently modifying the divisor by dividing it by 10 and storing the number n as the remainder of the division that was performed on it. We keep this up until the divisor becomes 0. To count the number of digits in the number, we consistently divide the number by 10 until it becomes 0 and count the number of division operations performed on the number. The number of division operations performed gives us the number of digits in the number.
+
+
+Instead of increasing the power of the divisor as done in earlier solution, we can count the number of digits and then use the Math.pow() function typecasted in (int) to set the divisor for the first division.
+  
+</detials>
+</detials>
+</detials>
+
