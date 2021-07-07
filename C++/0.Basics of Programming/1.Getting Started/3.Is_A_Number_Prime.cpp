@@ -7,10 +7,10 @@ int main(){
     {
         int n;
         cin>>n;
-         int i, flag = 0;
+        int i, flag = 0;
 
         for (i = 2; i <= n / 2; ++i) {
-         // condition for non-prime
+        // condition for non-prime
         if (n % i == 0) 
         {
             flag = 1;
@@ -18,9 +18,9 @@ int main(){
         }
         }
 
-        if (n == 1) 
+        if (n == 1 || n==0) 
         {
-            cout<<"1 is neither prime nor composite.\n";
+            cout<<n<<" is neither prime nor composite.\n";
         } 
 
         else 
@@ -31,8 +31,5 @@ int main(){
         else
         cout<<"Not a prime number.\n\n";
         }
-
     }
-    
-
 }
