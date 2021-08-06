@@ -19,8 +19,7 @@ int main() {
         break;
       }
     }
-    if (count == 0)
-    {
+    if (count == 0){
       cout << "prime" << endl;
     }
     else
