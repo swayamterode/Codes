@@ -138,3 +138,48 @@ A number n
  ---
  
  </details>
+
+ ### 4. Pattern 4
+
+<details>
+ <summary>Click to Expand!</summary>
+ 
+#### Format
+ 
+``` text
+1. You are given a number n.
+2. You've to create a pattern of * and separated by tab as shown in output format.
+```
+ 
+#### Input Format
+ 
+ ```text
+A number n
+ ```
+ 
+#### Constraints
+
+ ```text
+1 <= n <= 100
+```
+ 
+#### Sample Input
+
+ ```text
+ 5
+```
+ 
+#### Output Format
+
+```text
+*	*	*	*	*	
+	*	*	*	*	
+		*	*	*	
+			*	*	
+				*
+``` 
+ 
+ ### [Pattern 4 Solution](https://github.com/swayamterode/Codes/blob/main/C%2B%2B/1.%20Basics%20of%20Programming/2.%20Patterns/04.Pattern%204.cpp)
+ ---
+ 
+ </details>
