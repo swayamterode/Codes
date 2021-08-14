@@ -2,7 +2,7 @@
  
 ## This folder is all about Pattern Problems.
 
-### 1.Pattern 1
+### 1. Pattern 1
 
 <details>
  <summary>Click to Expand!</summary>
@@ -133,7 +133,7 @@ A number n
 	*	*	*	*	
 *	*	*	*	*		
 ```
- ### [Pattern 3 Solution](https://github.com/swayamterode/Codes/blob/main/C%2B%2B/1.%20Basics%20of%20Programming/2.%20Patterns/03.Pattern%203.cpp)
+ ### [Pattern 3 Solution](https://github.com/swayamterode/Codes/blob/main/C%2B%2B/Level%201/1.%20Basics%20of%20Programming/2.%20Patterns/05.%20Pattern%205.cpp)
 
  ---
  
@@ -183,3 +183,55 @@ A number n
  ---
  
  </details>
+ 
+ ### 5. Pattern 5
+
+<details>
+<summary>Click to Expand!</summary>
+ 
+#### Format
+ 
+``` text
+1. You are given a number n.
+2. You've to create a pattern of * and separated by tab as shown in output format.
+```
+ 
+#### Input Format
+ 
+ ```text
+A number n
+ ```
+ 
+#### Constraints
+
+ ```text
+ 1 <= n <= 44
+ ```
+ 
+#### Sample Input
+
+ ```text
+ 5
+``` 
+ 
+#### Output Format
+
+```text
+	
+		*
+	*	*	*	
+*	*	*	*	*	
+	*	*	*
+		*	
+
+```
+
+**NOTE**: Here ``\t`` represents the tab.
+	
+	 
+ 
+ ### [Pattern 5 Solution](https://github.com/swayamterode/Codes/blob/main/C%2B%2B/1.%20Basics%20of%20Programming/2.%20Patterns/01.%20Pattern%201.cpp)
+
+ ---
+ </details>
+ 
