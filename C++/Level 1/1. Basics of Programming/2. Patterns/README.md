@@ -230,7 +230,7 @@ A number n
 	
 	 
  
- ### [Pattern 5 Solution](https://github.com/swayamterode/Codes/blob/main/C%2B%2B/1.%20Basics%20of%20Programming/2.%20Patterns/01.%20Pattern%201.cpp)
+ ### [Pattern 5 Solution](https://github.com/swayamterode/Codes/blob/main/C%2B%2B/Level%201/1.%20Basics%20of%20Programming/2.%20Patterns/05.%20Pattern%205.cpp)
 
  ---
  </details>
