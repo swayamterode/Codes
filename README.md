@@ -4,7 +4,8 @@
   
 <div/>
 
-### Nothing special here I solve some questions here , you can check it out if you wanna 😅
+### Nothing special here I solve some questions here , if you wish to see then check it out 😅
+  
 <div align="center">
   
 ## 👨 Let's Connect
