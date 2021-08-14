@@ -224,13 +224,61 @@ A number n
 	*	*	*
 		*	
 
-```
-
-**NOTE**: Here ``\t`` represents the tab.
-	
-	 
+```	 
  
  ### [Pattern 5 Solution](https://github.com/swayamterode/Codes/blob/main/C%2B%2B/Level%201/1.%20Basics%20of%20Programming/2.%20Patterns/05.%20Pattern%205.cpp)
+
+ ---
+ </details>
+ 
+  ### 6. Pattern 6
+
+<details>
+<summary>Click to Expand!</summary>
+ 
+#### Format
+ 
+``` text
+1. You are given a number n.
+2. You've to create a pattern of * and separated by tab as shown in output format.
+```
+ 
+#### Input Format
+ 
+ ```text
+A number n
+ ```
+ 
+#### Constraints
+
+ ```text
+	
+1 <= n <= 100
+ Also, n is odd. 
+	
+```
+ 
+#### Sample Input
+
+ ```text
+	
+ 5
+	
+``` 
+ 
+#### Output Format
+
+```text
+	
+*	*	*		*	*	*	
+*	*				*	*	
+*						*	
+*	*				*	*	
+*	*	*		*	*	*	
+
+```	 
+ 
+ ### [Pattern 6 Solution](https://github.com/swayamterode/Codes/blob/main/C%2B%2B/Level%201/1.%20Basics%20of%20Programming/2.%20Patterns/06.%20Pattern%206.cpp)
 
  ---
  </details>
