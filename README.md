@@ -8,8 +8,6 @@
   
 <div align="center">
   
-## 👨 Let's Connect
-
   [![Gmail Badge](https://img.shields.io/badge/-swayamterodex@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:swayamterodex@gmail.com "Connect via Email")
   [![Linkedin Badge](https://img.shields.io/badge/Swayam%20Terode-0072b1?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/swayam-terode/ "Connect on LinkedIn")
   [![Instagram Badge](https://img.shields.io/badge/-@swayamterode-important?style=flat&logo=Instagram&logoColor=white)](https://m.me/swayamterode "Connect on Instagram")
