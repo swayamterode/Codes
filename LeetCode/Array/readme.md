@@ -5,6 +5,7 @@
   | Question |Difficulty| Solution |
   | :------- | :------: | :------: |
   | [**1. Two Sum**](https://leetcode.com/problems/two-sum/) |**Easy**| [Solution](https://git.io/JPrPL)|
+  | [**1313. Decompress Run-Length Encoded List**](https://leetcode.com/problems/decompress-run-length-encoded-list/) |**Easy** | [Solution](https://git.io/JPbVr)
   | [**1431. Kids With the Greatest Number of Candies**](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | **Easy** | [Solution](https://git.io/JP7To)
   | [**1480. Running Sum of 1d Array**](https://leetcode.com/problems/running-sum-of-1d-array/) | **Easy** | [Solution](https://git.io/JPQoP) |
   | [**1512. Number of Good Pairs**](https://leetcode.com/problems/number-of-good-pairs/) | **Easy** | [Solution](https://git.io/JPdjw) |
