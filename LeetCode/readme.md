@@ -14,6 +14,7 @@
   |[**1290. Convert Binary Number in a Linked List to Integer**](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPgaZ)|
   | [**1431. Kids With the Greatest Number of Candies**](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) |**`Array`** | **Easy** | [Solution](https://git.io/JP7To)
   | [**1480. Running Sum of 1d Array**](https://leetcode.com/problems/running-sum-of-1d-array/) | **`Array`** | **Easy** | [Solution](https://git.io/JPQoP) |
+  | [**1512. Number of Good Pairs**](https://leetcode.com/problems/number-of-good-pairs/) | **`Array`** |**Easy** | [Solution](https://git.io/JPdjw) |
   | [**1920. Build Array from Permutation**](https://leetcode.com/problems/build-array-from-permutation/) | **`Array`** | **Easy** |[Solution](https://git.io/JPyMN)
   | [**1929. Concatenation of Array**](https://leetcode.com/problems/concatenation-of-array/) | **`Array`** | **Easy** | [Solution](https://git.io/JPHKo)
   | [**2011. Final Value of Variable After Performing Operations**](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | **`Array`** | **Easy** | [Solution](https://git.io/JPQRs)|
@@ -21,7 +22,6 @@
  -----
 
   </div>
-
   
   ## Topic Wise Solved List
   
