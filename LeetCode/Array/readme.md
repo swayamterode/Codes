@@ -9,8 +9,9 @@
   | [**1431. Kids With the Greatest Number of Candies**](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | **Easy** | [Solution](https://git.io/JP7To)
   | [**1480. Running Sum of 1d Array**](https://leetcode.com/problems/running-sum-of-1d-array/) | **Easy** | [Solution](https://git.io/JPQoP) |
   | [**1512. Number of Good Pairs**](https://leetcode.com/problems/number-of-good-pairs/) | **Easy** | [Solution](https://git.io/JPdjw) |
-  | [**1920. Build Array from Permutation**](https://leetcode.com/problems/build-array-from-permutation/) | **Easy** |[Solution](https://git.io/JPyMN)
-  | [**1929. Concatenation of Array**](https://leetcode.com/problems/concatenation-of-array/) | **Easy** | [Solution](https://git.io/JPHKo)
+  | [**1920. Build Array from Permutation**](https://leetcode.com/problems/build-array-from-permutation/) | **Easy** |[Solution](https://git.io/JPyMN) |
+  | [**1929. Concatenation of Array**](https://leetcode.com/problems/concatenation-of-array/) | **Easy** | [Solution](https://git.io/JPHKo) |
+  | [**2006. Count Number of Pairs With Absolute Difference K**](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | **Easy** | [Solution](https://git.io/JPbMM)
   | [**2011. Final Value of Variable After Performing Operations**](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | **Easy** | [Solution](https://git.io/JPQRs)|
   
 </div>
