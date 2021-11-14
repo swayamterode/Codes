@@ -7,8 +7,9 @@
   | [**1. Two Sum**](https://leetcode.com/problems/two-sum/) | **`Array`** |**Easy**| [Solution](https://git.io/JPrPL)|
   | [**9. Palindrome Number**](https://leetcode.com/problems/palindrome-number/) |**`Math`** |**Easy**| [Solution](https://git.io/JX4v2)|
   | [**25. Reverse Nodes in k-Group**](https://leetcode.com/problems/reverse-nodes-in-k-group/) | **`Linked List`** | **Hard** | [Solution](https://git.io/JPr2f)|
+  | [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPKF4)|  
   | [**83. Remove Duplicates from Sorted List**](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JP7Le) |
-  | [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPKF4)|
+  | [**88. Merge Sorted Array**](https://leetcode.com/problems/merge-sorted-array/)|**`Array, String, Sorting`** | **Easy** | [Solution](https://git.io/J1vzc) |
   | [**206. Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPV3B)|
   | [**217. Contains Duplicate**](https://leetcode.com/problems/contains-duplicate/) |**`Array`** | **Easy** | [Solution](https://git.io/JXg2U)
   | [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)| **`Linked List`** | **Easy** | [Solution](https://git.io/JPgWd)|
