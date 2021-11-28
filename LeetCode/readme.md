@@ -14,6 +14,7 @@
   | [**203. Remove Linked List Elements**](https://leetcode.com/problems/remove-linked-list-elements/) | **`Linked List`** | **Easy** | [Solution](https://git.io/J1tVY) |
   | [**217. Contains Duplicate**](https://leetcode.com/problems/contains-duplicate/) |**`Array`** | **Easy** | [Solution](https://git.io/JXg2U)
   | [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)| **`Linked List`** | **Easy** | [Solution](https://git.io/JPgWd)|
+  | [**832. Flipping an Image**](https://leetcode.com/problems/flipping-an-image/)|**`Arrays, Two Pointer, Matrix, Simulation`** | **Easy** | [Solution](https://git.io/JMlHW) |
   | [**876. Middle of the Linked List**](https://git.io/JPgle) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPgle) |
   |[**1290. Convert Binary Number in a Linked List to Integer**](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPgaZ) |
   | [**1313. Decompress Run-Length Encoded List**](https://leetcode.com/problems/decompress-run-length-encoded-list/) |**`Array`** |**Easy** | [Solution](https://git.io/JPbVr)
