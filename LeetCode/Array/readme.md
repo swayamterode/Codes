@@ -8,8 +8,9 @@
   | [**88. Merge Sorted Array**](https://leetcode.com/problems/merge-sorted-array/) | **Easy** | [Solution](https://git.io/J1vzc) |
   | [**217. Contains Duplicate**](https://leetcode.com/problems/contains-duplicate/) | **Easy** | [Solution](https://git.io/JXg2U) |
   | [**832. Flipping an Image**](https://leetcode.com/problems/flipping-an-image/) | **Easy** | [Solution](https://git.io/JMlHW) |
-  | [**1313. Decompress Run-Length Encoded List**](https://leetcode.com/problems/decompress-run-length-encoded-list/) |**Easy** | [Solution](https://git.io/JPbVr)
-  | [**1431. Kids With the Greatest Number of Candies**](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | **Easy** | [Solution](https://git.io/JP7To)
+  | [**1313. Decompress Run-Length Encoded List**](https://leetcode.com/problems/decompress-run-length-encoded-list/) |**Easy** | [Solution](https://git.io/JPbVr) |
+  | [**1470. Shuffle the Array**](https://leetcode.com/problems/shuffle-the-array/) | **Easy** | [Solution](https://git.io/JM2My)
+  | [**1431. Kids With the Greatest Number of Candies**](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | **Easy** | [Solution](https://git.io/JP7To) |
   | [**1480. Running Sum of 1d Array**](https://leetcode.com/problems/running-sum-of-1d-array/) | **Easy** | [Solution](https://git.io/JPQoP) |
   | [**1512. Number of Good Pairs**](https://leetcode.com/problems/number-of-good-pairs/) | **Easy** | [Solution](https://git.io/JPdjw) |
   | [**1534. Count Good Triplets**](https://leetcode.com/problems/count-good-triplets/) | **Easy** | [Solution](https://git.io/JMEWq)
