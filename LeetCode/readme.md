@@ -19,6 +19,7 @@
   |[**1290. Convert Binary Number in a Linked List to Integer**](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPgaZ) |
   | [**1313. Decompress Run-Length Encoded List**](https://leetcode.com/problems/decompress-run-length-encoded-list/) |**`Array`** |**Easy** | [Solution](https://git.io/JPbVr)
   | [**1431. Kids With the Greatest Number of Candies**](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) |**`Array`** | **Easy** | [Solution](https://git.io/JP7To) |
+  | [**1470. Shuffle the Array**](https://leetcode.com/problems/shuffle-the-array/) | **`Arrays`** |**Easy** | [Solution](https://git.io/JM2My) |
   | [**1480. Running Sum of 1d Array**](https://leetcode.com/problems/running-sum-of-1d-array/) | **`Array`** | **Easy** | [Solution](https://git.io/JPQoP) |
   | [**1512. Number of Good Pairs**](https://leetcode.com/problems/number-of-good-pairs/) | **`Array`** |**Easy** | [Solution](https://git.io/JPdjw) |
   | [**1534. Count Good Triplets**](https://leetcode.com/problems/count-good-triplets/) |**`Array`** | **Easy** | [Solution](https://git.io/JMEWq)
