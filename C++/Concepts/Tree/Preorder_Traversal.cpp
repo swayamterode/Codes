@@ -1,7 +1,7 @@
 /**
  * @file Preorder_Traversal.cpp
  * @author Swayam Terode(swayamterodex@gmail.com)
- * @brief Preorder Traversal of Binary Search.
+ * @brief Preorder Traversal of Binary Tree.
  * @version 0.1
  * @date 2021-12-19
  * 
