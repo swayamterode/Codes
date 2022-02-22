@@ -18,3 +18,18 @@ public:
         return ans;
     }
 };
+
+//Good Code quality!
+class Solution {
+public:
+    int titleToNumber(string columnTitle) {
+        int increase = 0, ans = 0;
+        int n = columnTitle.length();
+        for(int alphabet = n-1; alphabet>=0; alphabet--) { //reverse order
+            int pos  = (columnTitle[alphabet] - 'A') + 1;
+            ans = ans + (pos * pow(26,increase));
+            increase ++;
+        }
+        return ans;
+    }
+};
