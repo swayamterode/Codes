@@ -1,10 +1,11 @@
 <div align ="center">
   
-  # Array ♨️
+  # <code> Array ♨️ </code>
   
   | Question |Difficulty| Solution |
   | :------- | :------: | :------: |
   | [**1. Two Sum**](https://leetcode.com/problems/two-sum/) |**Easy**| [Solution](https://git.io/JPrPL)|
+  | [**74. Search a 2D Matrix**](https://leetcode.com/problems/search-a-2d-matrix/) | **Easy** | [Solution](https://github.com/swayamterode/Codes/blob/main/Platform/LeetCode/Array/0074.%20Search%20a%202D%20Matrix.cpp) |
   | [**88. Merge Sorted Array**](https://leetcode.com/problems/merge-sorted-array/) | **Easy** | [Solution](https://git.io/J1vzc) |
   | [**217. Contains Duplicate**](https://leetcode.com/problems/contains-duplicate/) | **Easy** | [Solution](https://git.io/JXg2U) |
   | [**832. Flipping an Image**](https://leetcode.com/problems/flipping-an-image/) | **Easy** | [Solution](https://git.io/JMlHW) |
