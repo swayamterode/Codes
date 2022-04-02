@@ -4,7 +4,8 @@
 
   | Question |Difficulty| Solution |
   | :------- | :------: | :------: |
-  | [**771. Jewels and Stones**](https://leetcode.com/problems/jewels-and-stones/) | **Easy** | [Solution ✔️ ](https://github.com/swayamterode/Codes/blob/main/LeetCode/String/0771.%20Jewels%20and%20Stones.cpp)|
+  |[**344. Reverse String**](https://leetcode.com/problems/reverse-string/)| **Easy** | [Solution ✔️](https://github.com/swayamterode/Codes/blob/main/Platform/LeetCode/String/0344.%20Reverse%20String.cpp)
+  | [**771. Jewels and Stones**](https://leetcode.com/problems/jewels-and-stones/) | **Easy** | [Solution ✔️](https://github.com/swayamterode/Codes/blob/main/LeetCode/String/0771.%20Jewels%20and%20Stones.cpp)|
   |[**1662. Check If Two String Arrays are Equivalent**](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | **Easy** | [Solution ✔️](https://github.com/swayamterode/Codes/blob/main/LeetCode/String/1662.%20Check%20If%20Two%20String%20Arrays%20are%20Equivalent.cpp) |
   |[**1528. Shuffle String**](https://leetcode.com/problems/shuffle-string/) | **Easy** | [Solution ✔️](https://github.com/swayamterode/Codes/blob/main/Platform/LeetCode/String/1528.%20Shuffle%20String.cpp) |
   |[**1678. Goal Parser Interpretation**](https://leetcode.com/problems/goal-parser-interpretation/)|**Easy**|[Solution ✔️](https://github.com/swayamterode/Codes/blob/main/Platform/LeetCode/String/1678.%20Goal%20Parser%20Interpretation.cpp) |
