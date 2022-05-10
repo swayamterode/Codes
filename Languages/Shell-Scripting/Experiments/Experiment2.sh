@@ -1,3 +1,5 @@
+# Write a program in shell for printing table of any number.
+
 echo "Swayam Terode SITA45"
 echo "Enter a Number"
 read n
