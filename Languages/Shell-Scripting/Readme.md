@@ -17,8 +17,35 @@ do
 done
 ```
 
-**Program Link** - [**Link**](https://github.com/swayamterode/Codes/blob/main/Languages/Shell-Scripting/Experiments/Experiment2.sh)
+**Program** - [**Link**](https://github.com/swayamterode/Codes/blob/main/Languages/Shell-Scripting/Experiments/Experiment2.sh)
 
 **Output** - [**Link**](https://github.com/swayamterode/Codes/blob/main/Languages/Shell-Scripting/Experiments/Output/Expeeriment2.png)
 
 ---
+
+## Experiment Number 3 
+
+**a) Shell script to find factorial of a number**
+
+```bash
+
+#To find factorial of given number
+# Swayam Terode SITA45
+echo "Enter a number"
+read num
+
+fact=1
+
+while [ $num -gt 1 ]
+do
+    fact=$((fact * num))  #fact = fact * num
+    num=$((num - 1))      #num = num - 1
+done
+
+echo $fact
+
+```
+
+**Program** - [**Link**](https://github.com/swayamterode/Codes/blob/main/Languages/Shell-Scripting/Experiments/Experiment3a.sh)
+
+**Output** - [**Link**](https://github.com/swayamterode/Codes/blob/main/Languages/Shell-Scripting/Experiments/Output/Experiment3a.png)
