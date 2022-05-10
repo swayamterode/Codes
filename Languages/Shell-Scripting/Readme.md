@@ -2,7 +2,7 @@
 
 ## Experiment Number 2
 
-**Write a program in shell for printing table of any number**
+**Write a program in shell for printing table of any number.**
 
 ```bash
 #Swayam Terode SITA45
@@ -17,4 +17,8 @@ do
 done
 ```
 
+**Program Link** - [**Link**](https://github.com/swayamterode/Codes/blob/main/Languages/Shell-Scripting/Experiments/Experiment2.sh)
+
 **Output** - [**Link**](https://github.com/swayamterode/Codes/blob/main/Languages/Shell-Scripting/Experiments/Output/Expeeriment2.png)
+
+---
