@@ -1,8 +1,23 @@
-console.log("\nThis is an example of function\n");
-function sayHello(param) {
-  console.log("Hello World!");
-  console.log("Parameter Received is:", param);
+//functions
+//creating a Function!
+function fun() {
+  console.log("This is an Function");
 }
-sayHello(007);
-sayHello("This is a String!");
-sayHello([1, 2, 3, 4, 5]);
+//Calling a Function!
+fun();
+
+/**Create a function that returns a name and say hello follwed by your name */
+function hello(yourName) {d
+  var result = "Hello " + yourName;
+  console.log(result);
+}
+var name = prompt("What is your name?");
+hello(name);
+
+//How do arguments works in functions?
+function sum(num1, num2) {
+  var result = num1 + num2;
+  console.log(result);
+}
+//calling the function with arguments
+sum(45,23);
