@@ -154,11 +154,64 @@ Variables declared inside a `{ }` block **cannot** be accessed from **outside** 
 <tr>
 <td> Variable declared with <code>var</code> keyword can have block scope.
 
- The variable declared with <code>var</code> keyword can be accessed from the outside the block.
+The variable declared with <code>var</code> keyword can be accessed from the outside the block.
+
 </td>
 <td>
 
 The variable declared with <code>let</code> keyword cannot be accessed from the outside the block.
+
+</td>
+</tr>
+</table>
+
+<!-- ---------------------------------------------------------------------------->
+
+## Redeclaring Variables
+
+<table>
+<tr>
+<td> <code>var</code> keyword </td> <td> <code>let</code> Keyword! </td>
+</tr>
+<tr>
+<td>
+
+```js
+var num1 = 55;
+//here num1 is 55
+{
+  var num1 = 56;
+  //here num1 is 56
+}
+{
+  var num1 = 5;
+  //here num1 is 5
+} //finally num1= 5
+```
+
+</td>
+
+<td>
+
+```js
+let num2 = 55; //here num1 is 55
+{
+  let num2 = 56; //here num1 is 56
+}
+{
+  let num2 = 5; //here num1 is 5
+} //finally num1= 55
+```
+
+</td>
+</tr>
+<tr>
+<td> 
+The variable declared with the <code>var</code> keyword can change variable value with the inside the {} block same as <code>let</code> keyword and the variable will have the recently updated value
+</td>
+<td>
+
+The variable which are decalred before { } block will be the variable value after decalartion of all scope, but same varible declared in { } block will be for that block itself(after that scope is blocked).
 
 </td>
 </tr>
