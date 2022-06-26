@@ -1,4 +1,8 @@
-# JavaScript
+<div align = "center">
+
+# JavaScript <img src ="https://imgs.search.brave.com/H4pIdYMAme1di27SUCv61oTSX_jZ0eSDuzomjq2lsRw/rs:fit:1052:1052:1/g:ce/aHR0cDovLzMuYnAu/YmxvZ3Nwb3QuY29t/Ly1QVHR5M0NmVEdu/QS9UcFpPRWpUUV9X/SS9BQUFBQUFBQUFl/by9LZUt0X0Q1WDJ4/by9zMTYwMC9qcy5q/cGc" height =23 width = 23>
+
+</div>
 
 ## JavaScript Variables
 
@@ -227,9 +231,7 @@ The variable which are decalred before { } block will be the variable value afte
 </td>
 </tr>
 </table>
-
-</details>
-
+  
 ## Redeclaring
 
 <details>
@@ -273,9 +275,12 @@ let num = 3;
 ```
 
 </details>
+  
+</details>
 
 ## Let Hosting
 
+ <!-- omit in toc -->
 <details>
 
 Variables which are defined with `var` keyowrd are hoisted and can be defined / intialized at any time.
@@ -298,5 +303,131 @@ var yourName;
 carName = "Saab";
 let carName = "Volvo";
 ```
+
+</details>
+
+## JavaScript Const
+
+<details>
+
+**RULES FOR `consts` to be followed**
+
+```text
+- Variables defined with const cannot be Redeclared.
+- Variables defined with const cannot be Reassigned.
+- Variable defined with const have Block Scope.
+```
+
+## When to use JavaScript const?
+
+<details>
+
+As a general rule, always declare a variable with `const` unless you know that the value will change.
+
+Use const when you declare:
+
+- A new Array
+- A new Object
+- A new Function
+- A new RegExp
+
+The keyword `const` is a little misleading.
+
+It does not define a constant value. It defines a constant reference to a value.
+
+Because of this you can **NOT**:
+
+- **Reassign** a constant value
+- **Reassign** a constant array
+- **Reassign** a constant object
+
+But you **CAN**:
+
+- Change the elements of constant array
+- Change the properties of constant object
+
+**Example:**
+
+```js
+//you can create a constant array:
+const studentList = ["Swayam", "Ram", "Sham"];
+
+//You can change array elemts
+studentList[0] = "Tim";
+
+//you can push elements to the array
+studentList.push("Aditya");
+```
+
+## 👎 Try not to do this
+
+```js
+const studentList = ["Swayam", "Ram", "Sham"];
+studentList = ["Tommy", "Raj"]; //Error
+```
+
+<img src = "https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/004.Const%20array%20error.png" alt = "const cannot reinitialzed">
+
+**Avoid reinitailizing the const variables** ✔️
+
+</details>
+
+## Const Cannot be Reassigned
+
+<details>
+
+Rule: _A const variable cannot be reassigned_
+
+Example
+
+```js
+const PI = 3.141592;
+PI = 3.14; // redeclaration error
+PI = PI + 3.14; // reassigned error
+```
+
+💯 **JavaScript const variables must be assigned a value when they are declared:**
+
+```js
+const PI = 3.141592;
+```
+
+Incorrect way:
+
+```js
+const PI;
+PI = 3.141592;
+```
+
+</details>
+
+</details>
+
+## Constant Objects
+
+<details>
+
+- You can change the properties of a constant object:
+  **Example:**
+
+```js
+const car = { type: "Audi", model: "Q3", color: "black" };
+
+//can change a property
+car.color = "red";
+//can add property
+car.dealer = "RAM";
+```
+
+- But you can NOT reassign the object
+  **Example:**
+
+```js
+const car = { type: "Fiat", model: "500", color: "white" };
+
+car = { type: "Volvo", model: "EX60", color: "red" }; // ERROR
+```
+
+<img src="https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/005.png">
 
 </details>
