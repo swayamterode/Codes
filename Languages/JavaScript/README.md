@@ -167,7 +167,13 @@ The variable declared with <code>let</code> keyword cannot be accessed from the 
 
 <!-- ---------------------------------------------------------------------------->
 
+</details>
+
 ## Redeclaring Variables
+
+<details>
+
+Redeclaring a variable using the var keyword can impose problems.
 
 <table>
 <tr>
@@ -207,14 +213,90 @@ let num2 = 55; //here num1 is 55
 </tr>
 <tr>
 <td> 
-The variable declared with the <code>var</code> keyword can change variable value with the inside the {} block same as <code>let</code> keyword and the variable will have the recently updated value
+The variable declared with the <code>var</code> keyword can change variable value with the inside the { } block same as <code>let</code> keyword and the variable will have the recently updated value.
+
+**Redeclaring a variable inside a block will also redeclare the variable outside the block**
+
 </td>
 <td>
 
-The variable which are decalred before { } block will be the variable value after decalartion of all scope, but same varible declared in { } block will be for that block itself(after that scope is blocked).
+The variable which are decalred before { } block will be the variable value after decalartion of all scope, but same varible declared in { } block will be for that block itself (after that scope is blocked).
+
+**Redeclaring a variable inside a block will not redeclare the variable outside the block:**
 
 </td>
 </tr>
 </table>
+
+</details>
+
+## Redeclaring
+
+<details>
+
+- Redeclaring a JavaScript variable with var is allowed anywhere in a program:
+
+```js
+var x = 34; // x is now 34
+var x = 7; // x is now 7
+```
+
+- With `let`, redeclaring a variable in the same block is NOT allowed:
+
+```js
+//Redeclaring with let
+var someNum = 1; //Alowed
+let someNum = 1; //Not allowed
+{
+  let someNum = 34; //allowed
+  let someNum = 3; //this gives error
+}
+{
+  let someNum = 23; //allowed
+  var someNum = 2; //Not allowed
+}
+```
+
+- With `let`, redeclaring a variable in the another block is NOT allowed:
+
+```js
+let num = 3;
+{
+  let num = 34; //allowed
+}
+{
+  let num = 4; //allowed
+}
+{
+  let num = 44; //allowed
+}
+```
+
+</details>
+
+## Let Hosting
+
+<details>
+
+Variables which are defined with `var` keyowrd are hoisted and can be defined / intialized at any time.
+
+```text
+💡 You can use the variable before declaring it
+```
+
+```js
+youName = "Jordan";
+var yourName;
+```
+
+```text
+🔥 Variables defined with let are also hoisted to the top of the block, but not initialized.
+
+```
+
+```js
+carName = "Saab";
+let carName = "Volvo";
+```
 
 </details>
