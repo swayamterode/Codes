@@ -4,11 +4,7 @@
 
 </div>
 
-<div align = "left">
-
 ## Variables, Identifiers, Datatypes
-
-</div>
 
 <details>
 
@@ -240,9 +236,9 @@ The `let` keyword was introduced in ES6.
 
 | Rules                                                                       |
 | :-------------------------------------------------------------------------- |
-| **Variables which are defined with `let` cannot be _Redefined_**            |
+| **Variables that are defined with `let` cannot be _Redefined_**             |
 | **Variables defined with `let` must be defined before we use the variable** |
-| **Variables decalred with `let` have _Block Scops_**                        |
+| **Variables declared with `let` have _Block Scops_**                        |
 
 <!--let block scope -->
 
@@ -250,17 +246,17 @@ The `let` keyword was introduced in ES6.
 
 <img src="https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/001.png" alt="let have Block Scoped">
 
-From the above error we can say that **we cannot** declare **two variable of same name with `let` keyword!**
+From the above error we can say that **we cannot** declare **two variables of the same name with the `let` keyword!**
 
-Another intresting fact:
+Another interesting fact:
 
-We can declare the same variables with the help of `var` keyword having different values, but **cannot** _declare the same variable which we have deaclared earlier with `let` keyword. let's understand with the help of **example**_
+We can declare the same variables with the help of the `var` keyword having different values, but **cannot** _declare the same variable which we have declared earlier with the `let` keyword. let's understand with the help of **example**_
 
 <img src="https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/002.png" alt = "let and var keyword explained">
 
-In the above example we have declare `x` 4 times, two times with `let` keyword and two times with `var` keyword, but this gives error beacuse we cannot variable that are use d by `let` keyword.
+In the above example, we have declared `x` 4 times, two times with the `let` keyword and two times with the `var` keyword, but this gives an error because we cannot variables that use d by `let` keyword.
 
-But can use different variable name to see the difference.
+But can use a different variable name to see the difference.
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
@@ -304,7 +300,7 @@ Variables declared inside a `{ }` block **cannot** be accessed from **outside** 
 <tr>
 <td> Variable declared with <code>var</code> keyword can have block scope.
 
-The variable declared with <code>var</code> keyword can be accessed from the outside the block.
+The variable declared with the <code>var</code> keyword can be accessed from outside the block.
 
 </td>
 <td>
@@ -351,9 +347,9 @@ console.log(pi);
 
 ![const](./public/4.2.PI_error.png)
 
-> Difference later betweem let and const
+> Difference later between let and const
 
-**RULES FOR `consts` to be followed**
+**RULES FOR `const` to be followed**
 
 ```text
 - Variables defined with const cannot be Redeclared.
@@ -378,7 +374,7 @@ The keyword `const` is a little misleading.
 
 It does not define a constant value. It defines a constant reference to a value.
 
-Because of this you can **NOT**:
+Because of this, you can **NOT**:
 
 - **Reassign** a constant value
 - **Reassign** a constant array
@@ -386,7 +382,7 @@ Because of this you can **NOT**:
 
 But you **CAN**:
 
-- Change the elements of constant array
+- Change the elements of the constant array
 - Change the properties of constant object
 
 **Example:**
@@ -411,7 +407,7 @@ studentList = ["Tommy", "Raj"]; //Error
 
 <img src = "https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/004.Const%20array%20error.png" alt = "const cannot reinitialzed">
 
-**Avoid reinitailizing the const variables** ✔️
+**Avoid reinitializing the const variables** ✔️
 
 </details>
 
@@ -511,7 +507,7 @@ let someNum = 1; //Not allowed
 }
 ```
 
-- With `let`, redeclaring a variable in the another block is NOT allowed:
+- With `let`, redeclaring a variable in another block is NOT allowed:
 
 ```js
 let num = 3;
@@ -575,7 +571,7 @@ The variable declared with the <code>var</code> keyword can change variable valu
 </td>
 <td>
 
-The variable which are decalred before { } block will be the variable value after decalartion of all scope, but same varible declared in { } block will be for that block itself (after that scope is blocked).
+The variable which is declared before the { } block will be the variable value after the declaration of all scope, but the same variable declared in the { } block will be for that block itself (after that scope is blocked).
 
 **Redeclaring a variable inside a block will not redeclare the variable outside the block:**
 
@@ -592,7 +588,7 @@ The variable which are decalred before { } block will be the variable value afte
  <!-- omit in toc -->
 <details>
 
-Variables which are defined with `var` keyowrd are hoisted and can be defined / intialized at any time.
+Variables that are defined with the `var` keyword are hoisted and can be defined/initialized at any time.
 
 ```text
 💡 You can use the variable before declaring it
@@ -616,4 +612,42 @@ let carName = "Volvo";
 </details>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+</details>
+
+## String Indexing
+
+<details>
+
+```js
+// string indexing
+
+let firstName = "Sunny";
+
+//  S    u    n   n   y
+//  0    1    2   3   4
+
+console.log(firstName[0]); //prints S
+console.log(firstName[1]); //prints u
+console.log(firstName[2]); //prints n
+console.log(firstName[3]); //prints n
+console.log(firstName[4]); //prints y
+
+//how to find length of string?
+//firstName.length
+console.log("Total length of the", firstName.length);
+//how to find last index of the string
+console.log("Last index of the string: ", firstName.length - 1);
+
+//how to find last index element of the string
+console.log("Last element of the string: ", firstName[firstName.length - 1]);
+```
+
+✔️ **OUTPUT**
+
+![Code output](./hv-course/public/5.2.String_indexing_output.png)
+
+- **stringName.length explained**:
+
+![stirng length](./hv-course/public/5.1.string.length.png)
+
 </details>
