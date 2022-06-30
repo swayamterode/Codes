@@ -55,7 +55,7 @@ let total = price1 + price2;
 ```
 
 </details>
-<!------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------->
 
 ## JavaScript Identifiers
 
@@ -145,7 +145,7 @@ console.log(lastName);
 
 The above error has occurred because we have used `"use strict"`.
 
-## Rules for var
+### Rules for var
 
 ```js
 //Rules for defining var
@@ -182,6 +182,29 @@ Things **not** to do! 🙅🚫
 ## JS Let
 
 <details>
+
+The correct way to define a let keyword is:
+
+```js
+let firstName = "Sunny";
+firstName = "Raj"; // firstName changed to Raj
+console.log(firstName);
+```
+
+✔️ **OUTPUT**
+
+![3.Error Resolved](./public/3.2.Error_resolved.png)
+
+- Things to avoid 🙅 🚫
+
+```js
+let firstName = "Sunny";
+let firstName = "Sunny";
+```
+
+✖️ **OUTPUT**
+
+![3.let keyword Error](./public/3.1.let_error.png)
 
 The `let` keyword was introduced in ES6.
 
@@ -257,6 +280,8 @@ The variable declared with <code>let</code> keyword cannot be accessed from the 
 </td>
 </tr>
 </table>
+
+> Will update later!
 
 <!-- ---------------------------------------------------------------------------->
 
