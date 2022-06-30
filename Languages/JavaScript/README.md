@@ -90,6 +90,95 @@ These unique names are called **identifiers**.
 
 </details>
 
+## JS var
+
+<details>
+
+Var can store some information and use them later and update that later
+
+- Declaring a keyword
+
+```js
+var firstName = "Sunny";
+```
+
+- Using a variable
+
+```js
+console.log(firstName);
+```
+
+**Variable is case sensitive!**
+
+```javascript
+"use strict";
+//decalring a variable
+var firstName = "Sunny";
+console.log(firstName); //output
+//variables can be assigned to different values
+firstName = "Raj";
+console.log(firstName); //output
+console.log("Everything is fine! i.e. No Errors");
+```
+
+**No Error in the above code.**
+
+```js
+"use strict";
+//decalring a variable
+var firstName = "Sunny";
+console.log(firstName); //output
+//variables can be assigned to different values
+firstName = "Raj";
+console.log(firstName); //output
+console.log("Everything is fine! i.e. No Errors");
+
+lastName = "Deol";
+console.log(lastName);
+```
+
+**The above code gives the following error:**
+
+![No Error Code!](./public/1.1.Error.png)
+
+![Example](./public/1.png)
+
+The above error has occurred because we have used `"use strict"`.
+
+## Rules for var
+
+```js
+//Rules for defining var
+var value1 = 10;
+console.log(value1);
+//you can also use underscore _ or dollar symbol
+//first_name (valid)
+//_firstname (valid)
+
+//first$name (valid)
+//$firstname (valid)
+
+//you cannot use spaces
+// first name (invalid)
+
+//convention
+//start with small letter and use camelCase
+```
+
+Things **not** to do! 🙅🚫
+
+![1](./public/2.1.var_syntaxERROR.png)
+
+✔️ Correct Syntax
+
+![2](./public/2.2.Error_resolved.png)
+
+**Output**:
+
+![3](<./public/2.3.Erro_resolved(console).png>)
+
+</details>
+
 ## JS Let
 
 <details>
