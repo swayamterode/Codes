@@ -14,3 +14,8 @@ studentList.push("Aditya");
 const car = { type: "Fiat", model: "500", color: "white" };
 
 //car = { type: "Volvo", model: "EX60", color: "red" }
+
+// decalre constants
+const pi = 3.14;
+//pi = 3.1451; gives error
+console.log(pi);
