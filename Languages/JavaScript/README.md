@@ -644,10 +644,10 @@ console.log("Last element of the string: ", firstName[firstName.length - 1]);
 
 ✔️ **OUTPUT**
 
-![Code output](./hv-course/public/5.2.String_indexing_output.png)
+![Code output](./public/5.2.String_indexing_output.png)
 
 - **stringName.length explained**:
 
-![stirng length](./hv-course/public/5.1.string.length.png)
+![stirng length](./public/5.1.string.length.png)
 
 </details>
