@@ -4,10 +4,17 @@
 
 </div>
 
-## JavaScript Variables
+<div align = "left">
+
+## Variables, Identifiers, Datatypes
+
+</div>
 
 <details>
-<!-- <summary>Click here to expand </summary> -->
+
+### 1.Variables
+
+<details>
 
 Variables are containers used to store the data.
 
@@ -30,7 +37,7 @@ In the above example `x`, `y` and `z` are variables, which are declared with the
 
 **All the three words `var`, `const`, and `let` are the same.**
 
-## When to use JS var?
+#### When to use JS var?
 
 ```MD
 - We use the var keyword in JS code from 1995 to 2015.
@@ -38,7 +45,7 @@ In the above example `x`, `y` and `z` are variables, which are declared with the
 - The let & const keywords were added to JS in 2015.
 ```
 
-## Now when to use let and const?
+#### Now when to use let and const?
 
 ```MD
 If you want a general rule: always declare variables with const.
@@ -46,7 +53,7 @@ If you want a general rule: always declare variables with const.
 If you think the value of the variable can change, use let.
 ```
 
-### Example
+#### Example
 
 ```js
 const price1 = 34; //this values cannot change so we have used const
@@ -54,10 +61,13 @@ const price1 = 44; //this values cannot change so we have used const
 let total = price1 + price2;
 ```
 
+---
+
 </details>
+
 <!---------------------------------------------------------------------------------------------------------------------------------------->
 
-## JavaScript Identifiers
+### 2. Identifiers
 
 <details>
 
@@ -73,7 +83,9 @@ These unique names are called **identifiers**.
 
 </details>
 
-## JavaScript Datatypes
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+### 3. Datatypes
 
 <details>
 
@@ -90,7 +102,21 @@ These unique names are called **identifiers**.
 
 </details>
 
-## JS var
+</details>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div align="left">
+
+## var, let & const
+
+</div>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <details>
+
+### 1. var
 
 <details>
 
@@ -145,6 +171,8 @@ console.log(lastName);
 
 The above error has occurred because we have used `"use strict"`.
 
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
 ### Rules for var
 
 ```js
@@ -179,7 +207,9 @@ Things **not** to do! 🙅🚫
 
 </details>
 
-## JS Let
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+### 2. let
 
 <details>
 
@@ -232,7 +262,11 @@ In the above example we have declare `x` 4 times, two times with `let` keyword a
 
 But can use different variable name to see the difference.
 
-## Block Scope
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+### Block Scope
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 Before ES6 (2015), JavaScript had only **Global Scope** and **Function Scope.**
 
@@ -283,13 +317,216 @@ The variable declared with <code>let</code> keyword cannot be accessed from the 
 
 > Will update later!
 
-<!-- ---------------------------------------------------------------------------->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+</details>
+
+### 3. const
+
+<details>
+
+> 💡const value can never be changed
+
+✔️ **This is how one should declare const keyword**
+
+```js
+// decalre constants
+const pi = 3.14;
+console.log(pi);
+```
+
+✔️ **OUTPUT**
+
+![const](./public/4.1.consts_keyword.png)
+
+✖️ **Things to avoid:**
+
+```js
+// decalre constants
+const pi = 3.14;
+pi = 3.1451;
+console.log(pi);
+```
+
+✖️ **OUTPUT**
+
+![const](./public/4.2.PI_error.png)
+
+> Difference later betweem let and const
+
+**RULES FOR `consts` to be followed**
+
+```text
+- Variables defined with const cannot be Redeclared.
+- Variables defined with const cannot be Reassigned.
+- Variable defined with const have Block Scope.
+```
+
+### When to use JavaScript const?
+
+<details>
+
+As a general rule, always declare a variable with `const` unless you know that the value will change.
+
+Use const when you declare:
+
+- A new Array
+- A new Object
+- A new Function
+- A new RegExp
+
+The keyword `const` is a little misleading.
+
+It does not define a constant value. It defines a constant reference to a value.
+
+Because of this you can **NOT**:
+
+- **Reassign** a constant value
+- **Reassign** a constant array
+- **Reassign** a constant object
+
+But you **CAN**:
+
+- Change the elements of constant array
+- Change the properties of constant object
+
+**Example:**
+
+```js
+//you can create a constant array:
+const studentList = ["Swayam", "Ram", "Sham"];
+
+//You can change array elemts
+studentList[0] = "Tim";
+
+//you can push elements to the array
+studentList.push("Aditya");
+```
+
+### 👎 Try not to do this
+
+```js
+const studentList = ["Swayam", "Ram", "Sham"];
+studentList = ["Tommy", "Raj"]; //Error
+```
+
+<img src = "https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/004.Const%20array%20error.png" alt = "const cannot reinitialzed">
+
+**Avoid reinitailizing the const variables** ✔️
 
 </details>
 
-## Redeclaring Variables
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+### Const Cannot be Reassigned
 
 <details>
+
+Rule: _A const variable cannot be reassigned_
+
+Example
+
+```js
+const PI = 3.141592;
+PI = 3.14; // redeclaration error
+PI = PI + 3.14; // reassigned error
+```
+
+💯 **JavaScript const variables must be assigned a value when they are declared:**
+
+```js
+const PI = 3.141592;
+```
+
+Incorrect way:
+
+```js
+const PI;
+PI = 3.141592;
+```
+
+</details>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+### Constant Objects
+
+<details>
+
+- You can change the properties of a constant object:
+  **Example:**
+
+```js
+const car = { type: "Audi", model: "Q3", color: "black" };
+
+//can change a property
+car.color = "red";
+//can add property
+car.dealer = "RAM";
+```
+
+- But you can NOT reassign the object
+  **Example:**
+
+```js
+const car = { type: "Fiat", model: "500", color: "white" };
+
+car = { type: "Volvo", model: "EX60", color: "red" }; // ERROR
+```
+
+<img src="https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/005.png">
+
+</details>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+</details>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+</details>
+
+## Redeclaring
+
+<details>
+
+- Redeclaring a JavaScript variable with var is allowed anywhere in a program:
+
+```js
+var x = 34; // x is now 34
+var x = 7; // x is now 7
+```
+
+- With `let`, redeclaring a variable in the same block is NOT allowed:
+
+```js
+//Redeclaring with let
+var someNum = 1; //Alowed
+let someNum = 1; //Not allowed
+{
+  let someNum = 34; //allowed
+  let someNum = 3; //this gives error
+}
+{
+  let someNum = 23; //allowed
+  var someNum = 2; //Not allowed
+}
+```
+
+- With `let`, redeclaring a variable in the another block is NOT allowed:
+
+```js
+let num = 3;
+{
+  let num = 34; //allowed
+}
+{
+  let num = 4; //allowed
+}
+{
+  let num = 44; //allowed
+}
+```
+
+### Redeclaring Variables
 
 Redeclaring a variable using the var keyword can impose problems.
 
@@ -346,51 +583,9 @@ The variable which are decalred before { } block will be the variable value afte
 </tr>
 </table>
   
-## Redeclaring
-
-<details>
-
-- Redeclaring a JavaScript variable with var is allowed anywhere in a program:
-
-```js
-var x = 34; // x is now 34
-var x = 7; // x is now 7
-```
-
-- With `let`, redeclaring a variable in the same block is NOT allowed:
-
-```js
-//Redeclaring with let
-var someNum = 1; //Alowed
-let someNum = 1; //Not allowed
-{
-  let someNum = 34; //allowed
-  let someNum = 3; //this gives error
-}
-{
-  let someNum = 23; //allowed
-  var someNum = 2; //Not allowed
-}
-```
-
-- With `let`, redeclaring a variable in the another block is NOT allowed:
-
-```js
-let num = 3;
-{
-  let num = 34; //allowed
-}
-{
-  let num = 4; //allowed
-}
-{
-  let num = 44; //allowed
-}
-```
-
 </details>
-  
-</details>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 ## Let Hosting
 
@@ -420,128 +615,5 @@ let carName = "Volvo";
 
 </details>
 
-## JavaScript Const
-
-<details>
-
-**RULES FOR `consts` to be followed**
-
-```text
-- Variables defined with const cannot be Redeclared.
-- Variables defined with const cannot be Reassigned.
-- Variable defined with const have Block Scope.
-```
-
-## When to use JavaScript const?
-
-<details>
-
-As a general rule, always declare a variable with `const` unless you know that the value will change.
-
-Use const when you declare:
-
-- A new Array
-- A new Object
-- A new Function
-- A new RegExp
-
-The keyword `const` is a little misleading.
-
-It does not define a constant value. It defines a constant reference to a value.
-
-Because of this you can **NOT**:
-
-- **Reassign** a constant value
-- **Reassign** a constant array
-- **Reassign** a constant object
-
-But you **CAN**:
-
-- Change the elements of constant array
-- Change the properties of constant object
-
-**Example:**
-
-```js
-//you can create a constant array:
-const studentList = ["Swayam", "Ram", "Sham"];
-
-//You can change array elemts
-studentList[0] = "Tim";
-
-//you can push elements to the array
-studentList.push("Aditya");
-```
-
-## 👎 Try not to do this
-
-```js
-const studentList = ["Swayam", "Ram", "Sham"];
-studentList = ["Tommy", "Raj"]; //Error
-```
-
-<img src = "https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/004.Const%20array%20error.png" alt = "const cannot reinitialzed">
-
-**Avoid reinitailizing the const variables** ✔️
-
-</details>
-
-## Const Cannot be Reassigned
-
-<details>
-
-Rule: _A const variable cannot be reassigned_
-
-Example
-
-```js
-const PI = 3.141592;
-PI = 3.14; // redeclaration error
-PI = PI + 3.14; // reassigned error
-```
-
-💯 **JavaScript const variables must be assigned a value when they are declared:**
-
-```js
-const PI = 3.141592;
-```
-
-Incorrect way:
-
-```js
-const PI;
-PI = 3.141592;
-```
-
-</details>
-
-</details>
-
-## Constant Objects
-
-<details>
-
-- You can change the properties of a constant object:
-  **Example:**
-
-```js
-const car = { type: "Audi", model: "Q3", color: "black" };
-
-//can change a property
-car.color = "red";
-//can add property
-car.dealer = "RAM";
-```
-
-- But you can NOT reassign the object
-  **Example:**
-
-```js
-const car = { type: "Fiat", model: "500", color: "white" };
-
-car = { type: "Volvo", model: "EX60", color: "red" }; // ERROR
-```
-
-<img src="https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/005.png">
-
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
 </details>
