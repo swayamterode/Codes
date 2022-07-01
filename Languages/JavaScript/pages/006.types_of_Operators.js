@@ -35,3 +35,16 @@ age = Number(age);
 console.log("Age =", age);
 console.log("typeof Age:", typeof age);
 console.log("----------------------");
+
+//BigInt
+console.log(Number.MAX_SAFE_INTEGER);
+let bigNumber = BigInt(123456789123456789);
+console.log("BigInt->", bigNumber);
+
+console.log("\n\n\n");
+
+//another way to define BigInt()
+
+let num1 = 121345n; //declared as BigInt number;
+let num2 = 142; // normal number
+console.log(num1 + num2);
