@@ -787,4 +787,28 @@ console.log("\n\n\n");
 
 </details>
 
+## 4. String Templates
+
+<details>
+
+Using string templates is easy
+
+use `${variable_name}`
+
+This can be used in strings, to replace the use of execusive + (plus) in the string!
+
+```js
+let age = 22;
+let firstName = "Sunny";
+
+let aboutMe = `My name is ${firstName} and my age is ${age}`;
+console.log(aboutMe);
+```
+
+✔️ **OUTPUT:**
+
+![String Templates](./public/8.2.png)
+
+</details>
+
 </details>
