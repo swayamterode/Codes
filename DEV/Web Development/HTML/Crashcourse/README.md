@@ -1,6 +1,6 @@
 # HTML
 
-**Step 1:** I am using VS CODE, so we can use the keyword `doc` and hit `enter` in the `.html` file
+**Step 1:** I am using VS CODE, so we can use keyword `doc` and hit `enter` in `.html` file
 
 ## Heading
 
@@ -58,7 +58,7 @@ Line break is added in HTML with the help of `<br> OR </br>` both are same.
 
 ![br tag](./img/03.p_tag_with_br_tag.png)
 
-> One line break breaks the entire para and adds a line break!
+> One line break breaks the entire para and adds line break!
 
 </details>
 
@@ -83,5 +83,41 @@ Adds horizontal line
 ![hr tag](./img/04.hr_tag.png)
 
 > See the horizontal line gets added
+
+</details>
+
+## Link
+
+<details>
+
+Creats links
+
+```javascript
+      <h1>Link</h1>
+  <a href="https://google.com" target="_blank">Google.com</a>
+```
+
+✔️ **OUTPUT**
+
+![link](./img/05.link.png)
+
+</details>
+
+## Images
+
+<details>
+
+_Used to add images_:
+
+```javascript
+<!-- Image -->
+    <h1>Image</h1>
+    <img src="https://imgs.search.brave.com/NGJmv80F32d8ddCf62GJ-E2Q2q59cDrbGQc0T-EvIvM/rs:fit:1200:1200:1/g:ce/aHR0cDovL3dhbGx1/cC5uZXQvd3AtY29u/dGVudC91cGxvYWRz/LzIwMTYvMDUvMTMv/MzUzMDUwLXdvbWVu/LXJlZGhlYWQtZnJl/Y2tsZXMtZmFjZS1s/b29raW5nX2F0X3Zp/ZXdlci1jbG9zZXVw/LmpwZw"
+        height="20%" width="15%">
+```
+
+✔️ **OUTPUT**
+
+![Image Output](./img/06.img.png)
 
 </details>
