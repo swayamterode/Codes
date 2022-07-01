@@ -142,6 +142,46 @@ console.log("----------------------");
 
 ![typeof () explained](./public/7.1.png)
 
+An example of BigInt()
+
+The above line allows us to use a number that does not fit in the range of `int`. See the below example.
+
+```js
+//BigInt
+console.log(Number.MAX_SAFE_INTEGER);
+```
+
+✔️ **OUTPUT**
+
+![BigInt()](./public/7.2.png)
+
+Actual usage of BigInt( )
+
+```js
+//BigInt
+console.log(Number.MAX_SAFE_INTEGER);
+let bigNumber = BigInt(123456789123456789);
+console.log("BigInt->", bigNumber);
+```
+
+![Use of BigInt](./public/7.3.png)
+
+**NOTE**:
+
+> 📓 Number with `n` at last of it is BigInt
+
+```js
+//another way to define BigInt()
+
+let num1 = 121345n; //declared as BigInt number;
+let num2 = 142; // normal number
+console.log(num1 + num2);
+```
+
+✖️ **OUTPUT**
+
+![Error](./public/7.4.png)
+
 </details>
 
 </details>
@@ -451,7 +491,7 @@ const studentList = ["Swayam", "Ram", "Sham"];
 studentList = ["Tommy", "Raj"]; //Error
 ```
 
-<img src = "https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/004.Const%20array%20error.png" alt = "const cannot reinitialzed">
+![Const error](https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/004.Const%20array%20error.png)
 
 **Avoid reinitializing the const variables** ✔️
 
@@ -515,7 +555,7 @@ const car = { type: "Fiat", model: "500", color: "white" };
 car = { type: "Volvo", model: "EX60", color: "red" }; // ERROR
 ```
 
-<img src="https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/005.png">
+![5](https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/005.png)
 
 </details>
 
@@ -787,7 +827,7 @@ console.log("\n\n\n");
 
 </details>
 
-## 4. String Templates
+## String Templates
 
 <details>
 
@@ -795,7 +835,7 @@ Using string templates is easy
 
 use `${variable_name}`
 
-This can be used in strings, to replace the use of execusive + (plus) in the string!
+This can be used in strings, to replace the use of executive + (plus) in the string!
 
 ```js
 let age = 22;
