@@ -109,7 +109,11 @@ We can insert elements at the head of the Linked List!
 > }
 > ```
 
-Let's implement the full code:
+- Why do we use & (reference)?
+
+> Because we do not want to make copy of the orignal data
+
+**Let's implement the full code** :
 
 ```cpp
 #include <bits/stdc++.h>
@@ -148,5 +152,69 @@ int main()
 ✔️ **OUTPUT**
 
 ![InsertAtHead](./../img/2.InsertatHead.png)
+
+</details>
+
+## Traversing a Linked List
+
+<details>
+
+> ```cpp
+> void traverse(Node *&head)
+> {
+>    cout << "Elements in the linked list are: ";
+>    Node *temp = head;
+>    while (temp != NULL)
+>    {
+>        cout << temp->data << " ";
+>        temp = temp->next;
+>    }
+>    cout << endl;
+> }
+> ```
+
+**Full Code**:
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+class Node
+{
+public:
+    int data;
+    Node *next;
+    Node(int data)
+    {
+        this->data = data;
+        this->next = NULL;
+    }
+};
+void traverse(Node *&head)
+{
+    cout << "Elements in the linked list are: ";
+    Node *temp = head;
+    while (temp != NULL)
+    {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+    cout << endl;
+}
+int main()
+{
+    Node *head = new Node(100);
+    Node *node1 = new Node(454);
+    head->next = node1;
+    Node *node2 = new Node(3);
+    node1->next = node2;
+
+    traverse(head);
+    return 0;
+}
+```
+
+✔️ **OUTPUT**
+
+![traversing](./../img/3.traverse.png)
 
 </details>
