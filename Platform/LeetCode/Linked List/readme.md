@@ -13,6 +13,7 @@
   | [**206. Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/)| **Easy** | [Solution](https://git.io/JPV3B)|
   |[**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)|**Easy**|[Solution](https://github.com/swayamterode/Codes/blob/main/Platform/LeetCode/Linked%20List/0234.%20Palindrome%20Linked%20List.cpp)|
   | [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)| **Easy** | [Solution](https://git.io/JPgWd)|
+  |[**705. Design HashSet**](https://leetcode.com/problems/design-hashset/)|**Easy**|[Solution](https://github.com/swayamterode/Codes/blob/main/Platform/LeetCode/Linked%20List/0705.%20Design%20HashSet.cpp)|
   | [**876. Middle of the Linked List**](https://git.io/JPgle) | **Easy** | [Solution](https://git.io/JPgle) |
   | [**1290. Convert Binary Number in a Linked List to Integer**](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)| **Easy** | [Solution](https://git.io/JPgaZ)|
   
