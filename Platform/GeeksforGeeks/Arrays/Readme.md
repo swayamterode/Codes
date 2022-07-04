@@ -9,4 +9,6 @@
 |3.|[**Palindromic Array**](https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1/?page=1&curated[]=7&sortBy=submissions) | **`School`** | [**Solution ✔️**](https://github.com/swayamterode/Codes/blob/main/Platform/GeeksforGeeks/Arrays/003.Palindromic_Array.cpp)|
 |4.|[**Value equal to index value**](https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1/?page=1&curated[]=7&sortBy=submissions)|**`School`**|[**Solution ✔️**](https://github.com/swayamterode/Codes/blob/main/Platform/GeeksforGeeks/Arrays/Value%20equal%20to%20index%20value.cpp)|
 |5.|[**Minimum X (xor) A**](https://practice.geeksforgeeks.org/problems/x-xor-a-is-minimum-and-set-bits-in-x-b/1#)|**`Hard`**|[**Solution ✔️**](https://github.com/swayamterode/Codes/blob/main/Platform/GeeksforGeeks/Arrays/004.Minimum_X_(xor)_A.cpp)|
+|6.|[**Union of two arrays**](https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1)| **`Basic`** | [**Solution ✔️**](https://github.com/swayamterode/Codes/blob/main/Platform/GeeksforGeeks/Arrays/005.Union_of_two_arrays.cpp)|
+
 </div>
