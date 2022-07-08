@@ -1,7 +1,7 @@
 # Functions
 
 ```js
-/* 
+/*
 TODO: Write a function that sums two numbers
 TODO: Write a function that subtracts two numbers
 TODO: Write a function that divides two numbers.
@@ -10,7 +10,7 @@ TODO: Write a function that multiplies two numbers.
 ES5 Syntax: function Add(){}
 ES6 Syntax (Arrow function): const add = () => {}
 */
-/* 
+/*
     TODO: create a function that console logs the result of any of the above operations.
   */
 console.log("Use of Functions:");
@@ -80,4 +80,4 @@ const multiplies = (num1, num2) => {
   return multiplication;
 };
 console.log("Multiplication:", multiplies(num1, num2));
-```js
+```
