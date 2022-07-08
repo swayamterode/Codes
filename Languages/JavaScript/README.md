@@ -940,4 +940,8 @@ const multiplies = (num1, num2) => {
 console.log("Multiplication:", multiplies(num1, num2));
 ```
 
+✔️ **OUTPUT**
+
+![Output](https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/pages/function/exercise/Functions.png)
+
 </details>
