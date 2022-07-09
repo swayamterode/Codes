@@ -6,12 +6,38 @@
 
 ### 1. 2d Arrays Demo
 
+<details>
+
 **Problem Statement :**
 
 <details>
 
 ![1](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/1.0.2D_Array_demo.png)
+
+**Sample Output:**
+
+>2
+>
+>4
+>
+>11
+>
+>12
+>
+>13
+>
+>14
+>
+>21
+>
+>22
+>
+>23
+>
+>24
+
 ![Constraints](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/1.1.2D_Array.png)
+
 ![Output](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/1.1.3.2D_array.png)
 
 </details>
@@ -56,6 +82,8 @@ int main()
 }
 
 ```
+
+</details>
 
 </details>
 
