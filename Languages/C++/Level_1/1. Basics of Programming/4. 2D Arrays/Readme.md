@@ -16,25 +16,25 @@
 
 **Sample Output:**
 
->2
+> 2
 >
->4
+> 4
 >
->11
+> 11
 >
->12
+> 12
 >
->13
+> 13
 >
->14
+> 14
 >
->21
+> 21
 >
->22
+> 22
 >
->23
+> 23
 >
->24
+> 24
 
 ![Constraints](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/1.1.2D_Array.png)
 
@@ -89,4 +89,151 @@ int main()
 
 ---
 
+### 2. Matrix Multiplication
+
+<details>
+
+**Problem Statement :**
+
+<details>
+
+![Martrix Mul](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/2.1.0.Matrix_Multiplication.png)
+
+![Const](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/2.1.1.Matrix_Multiplication_Const.png)
+
+Sample Input:
+
+> 2
+>
+> 3
+>
+> 10
+>
+> 0
+>
+> 0
+>
+> 0
+>
+> 20
+>
+> 0
+>
+> 3
+>
+> 4
+>
+> 1
+>
+> 0
+>
+> 1
+>
+> 0
+>
+> 0
+>
+> 1
+>
+> 1
+>
+> 2
+>
+> 1
+>
+> 1
+>
+> 0
+>
+> 0
+
+![Sample Output](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/2.1.2.Matrix_Multiplication_output.png)
+
+</details>
+
+**C++ Solution** ✔️
+
+<details>
+
+```cpp
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+void matrixMult(vector<vector<int>> A, vector<vector<int>> B){
+    int r1 = A.size();
+    int c1 = A[0].size();
+    int r2 = B.size();
+    int c2 = B[0].size();
+
+    if(c1 != r2)
+    {
+        cout<<"Invalid input";
+        return;
+    }
+    vector<vector<int>> pdt;
+    for(int i = 0; i<r1; i++) {
+        vector<int> arr;
+    for(int j = 0; j<c2; j++){
+        int mul = 0;
+        for(int k = 0; k<c1; k++){
+            mul += (A[i][k] * B[k][j]);
+        }
+        arr.push_back(mul);
+    }
+    pdt.push_back(arr);
+}
+
+for(int i = 0; i<r1; i++) {
+    for(int j= 0; j<c2; j++){
+        cout<<pdt[i][j]<<" ";
+    }
+    cout<<endl;
+}
+}
+
+int main(){
+    int r1;
+    int c1;
+    cin>>r1;
+    cin>>c1;
+
+    vector<vector<int>> mat1;
+    for(int i= 0; i< r1; i++){
+        vector<int> arr;
+        for(int j= 0; j< c1; j++){
+            int ele;
+            cin>> ele;
+            arr.push_back(ele);
+        }
+        mat1.push_back(arr);
+    }
+
+    int r2;
+    int c2;
+    cin>>r2;
+    cin>>c2;
+
+    vector<vector<int>> mat2;
+    for(int i= 0; i< r2; i++){
+        vector<int> arr;
+        for(int j= 0; j< c2; j++){
+            int ele;
+            cin>> ele;
+            arr.push_back(ele);
+        }
+        mat2.push_back(arr);
+    }
+
+    matrixMult(mat1, mat2);
+}
+```
+
+</details>
+
+</details>
+
+---
+    
 </details>
