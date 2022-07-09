@@ -8,9 +8,17 @@
 
 <details>
 
-### Question Link [here](https://practice.geeksforgeeks.org/contest/interview-series-57/problems/)
+### Problem Statement
 
-Question
+<details>
+
+#### Question Link [here](https://practice.geeksforgeeks.org/contest/interview-series-57/problems/)
+
+![Seating_Arrangement](https://github.com/swayamterode/Codes/blob/main/Platform/GeeksforGeeks/Interview_Series/Interview%20Series%20%2357/Questions/1.0.Seating_Arrangement.PNG)
+
+![Seating_Arrangement](https://github.com/swayamterode/Codes/blob/main/Platform/GeeksforGeeks/Interview_Series/Interview%20Series%20%2357/Questions/1.1.Seating_Arrangement.PNG)
+
+</details>
 
 ### Solution
 
@@ -88,5 +96,7 @@ int main(){
 </details>
 
 ---
+
+</details>
 
 </details>
