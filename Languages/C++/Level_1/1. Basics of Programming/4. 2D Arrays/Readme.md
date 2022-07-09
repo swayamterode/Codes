@@ -235,5 +235,132 @@ int main(){
 </details>
 
 ---
-    
+
+### 3. The State Of Wakanda - 1
+
+<details>
+
+**Problem Statement:**
+
+<details>
+
+![The_State_Of_Wakanda-1](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/3.1.0.The_State_Of_Wakanda-1.png)
+
+![Const](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/3.1.0.The_State_Of_Wakanda-1_const.png)
+
+![Sample Input Output](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/3.1.1.The_State_Of_Wakanda-1_Input_sample_output.png)
+
+**Sample Input:**
+
+> 3
+>
+> 4
+>
+> 11
+>
+> 12
+>
+> 13
+>
+> 14
+>
+> 21
+>
+> 22
+>
+> 23
+>
+> 24
+>
+> 31
+>
+> 32
+>
+> 33
+>
+> 34
+
+**Sample Output:**
+
+> 11
+>
+> 21
+>
+> 31
+>
+> 32
+>
+> 22
+>
+> 12
+>
+> 13
+>
+> 23
+>
+> 33
+>
+> 34
+>
+> 24
+>
+> 14
+
+</details>
+
+**C++ Solution** ✔️
+
+<details>
+
+```cpp
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+void columnTraversal(vector<vector<int>> mat) {
+  int row = mat.size();
+  int col = mat[0].size();
+
+  for (int i = 0; i < col; i++) {
+    if (i % 2 == 0) {
+      for (int j = 0; j < row; j++) {
+        cout << mat[j][i] << endl;
+      }
+    }
+    else {
+      for (int j = row - 1; j >= 0; j--) {
+        cout << mat[j][i] << endl;
+      }
+    }
+  }
+}
+
+int main() {
+  int n;
+  int m;
+  cin >> n;
+  cin >> m;
+
+  vector<vector<int>> mat;
+  for (int i = 0; i < n; i++) {
+    vector<int> arr;
+    for (int j = 0; j < m; j++) {
+      int ele;
+      cin >> ele;
+      arr.push_back(ele);
+    }
+    mat.push_back(arr);
+  }
+
+  columnTraversal(mat);
+}
+```
+
+</details>
+
+</details>
+
+---
+
 </details>
