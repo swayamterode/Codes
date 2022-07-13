@@ -1,40 +1,64 @@
 <div align = "center" >
   
-  # LeetCode Solution
+# LeetCode Solutions
 
-  |Problem | Related Topics | Difficulty| Solution | 
-  | :----  | :------------: |:-------: | :------: |
-  | [**1. Two Sum**](https://leetcode.com/problems/two-sum/) | **`Array`** |**Easy**| [Solution](https://git.io/JPrPL)|
-  | [**9. Palindrome Number**](https://leetcode.com/problems/palindrome-number/) |**`Math`** |**Easy**| [Solution](https://git.io/JX4v2)|
-  | [**25. Reverse Nodes in k-Group**](https://leetcode.com/problems/reverse-nodes-in-k-group/) | **`Linked List`** | **Hard** | [Solution](https://git.io/JPr2f)|
-  | [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPKF4)|
-  | [**74. Search a 2D Matrix**](https://leetcode.com/problems/search-a-2d-matrix/)|**`Array, Binary Search, Matrix`** | **Easy** | [Solution](https://github.com/swayamterode/Codes/blob/main/Platform/LeetCode/Array/0074.%20Search%20a%202D%20Matrix.cpp) |
-  | [**83. Remove Duplicates from Sorted List**](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JP7Le) |
-  | [**88. Merge Sorted Array**](https://leetcode.com/problems/merge-sorted-array/)|**`Array, String, Sorting`** | **Easy** | [Solution](https://git.io/J1vzc) |
-  | [**206. Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPV3B)|
-  | [**203. Remove Linked List Elements**](https://leetcode.com/problems/remove-linked-list-elements/) | **`Linked List`** | **Easy** | [Solution](https://git.io/J1tVY) |
-  | [**217. Contains Duplicate**](https://leetcode.com/problems/contains-duplicate/) |**`Array`** | **Easy** | [Solution](https://git.io/JXg2U)
-  | [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)| **`Linked List`** | **Easy** | [Solution](https://git.io/JPgWd)|
-  | [**832. Flipping an Image**](https://leetcode.com/problems/flipping-an-image/)|**`Arrays, Two Pointer, Matrix, Simulation`** | **Easy** | [Solution](https://git.io/JMlHW) |
-  | [**876. Middle of the Linked List**](https://git.io/JPgle) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPgle) |
-  |[**1290. Convert Binary Number in a Linked List to Integer**](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | **`Linked List`** | **Easy** | [Solution](https://git.io/JPgaZ) |
-  | [**1313. Decompress Run-Length Encoded List**](https://leetcode.com/problems/decompress-run-length-encoded-list/) |**`Array`** |**Easy** | [Solution](https://git.io/JPbVr)
-  | [**1431. Kids With the Greatest Number of Candies**](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) |**`Array`** | **Easy** | [Solution](https://git.io/JP7To) |
-  | [**1470. Shuffle the Array**](https://leetcode.com/problems/shuffle-the-array/) | **`Arrays`** |**Easy** | [Solution](https://git.io/JM2My) |
-  | [**1480. Running Sum of 1d Array**](https://leetcode.com/problems/running-sum-of-1d-array/) | **`Array`** | **Easy** | [Solution](https://git.io/JPQoP) |
-  | [**1512. Number of Good Pairs**](https://leetcode.com/problems/number-of-good-pairs/) | **`Array`** |**Easy** | [Solution](https://git.io/JPdjw) |
-  | [**1534. Count Good Triplets**](https://leetcode.com/problems/count-good-triplets/) |**`Array`** | **Easy** | [Solution](https://git.io/JMEWq)
-  | [**1920. Build Array from Permutation**](https://leetcode.com/problems/build-array-from-permutation/) | **`Array`** | **Easy** |[Solution](https://git.io/JPyMN) |
-  | [**1929. Concatenation of Array**](https://leetcode.com/problems/concatenation-of-array/) | **`Array`** | **Easy** | [Solution](https://git.io/JPHKo) |
-  | [**2006. Count Number of Pairs With Absolute Difference K**](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | **`Array`** | **Easy** | [Solution](https://git.io/JPbMM) |
-  | [**2011. Final Value of Variable After Performing Operations**](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | **`Array`** | **Easy** | [Solution](https://git.io/JPQRs)|
-  
- -----
+| Question                                                                                                                                            |     Topic     | Difficulty |                                                      Solution                                                       |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------: | :--------: | :-----------------------------------------------------------------------------------------------------------------: |
+| [**1. Two Sum**](https://leetcode.com/problems/two-sum/)                                                                                            |    `Array`    |  **Easy**  |                                 [Solution](../LeetCode/Array/0001.%20Two%20Sum.cpp)                                 |
+| [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/)                                                             | `Linked List` |  **Easy**  |                   [Solution](../LeetCode/Linked%20List/0021.%20Merge%20Two%20Sorted%20Lists.cpp)                    |
+| [**24. Swap Nodes in Pairs**](https://leetcode.com/problems/swap-nodes-in-pairs/)                                                                   | `Linked List` | **Medium** |                     [Solution](../LeetCode/Linked%20List/0024.%20Swap%20Nodes%20in%20Pairs.cpp)                     |
+| [**25. Reverse Nodes in k-Group**](https://leetcode.com/problems/reverse-nodes-in-k-group/)                                                         | `Linked List` |  **Hard**  |                  [Solution](../LeetCode/Linked%20List/0025.%20Reverse%20Nodes%20in%20k-Group.cpp)                   |
+| [**27. Remove Element**](https://leetcode.com/problems/remove-element/)                                                                             |    `Array`    |  **Easy**  |                             [Solution](../LeetCode/Array/0027.%20Remove%20Element.cpp)                              |
+| [**31. Next Permutation**](https://leetcode.com/problems/next-permutation/)                                                                         |    `Array`    | **Medium** |                            [Solution](../LeetCode/Array/0031.%20Next%20Permutation.cpp)                             |
+| [**35. Search Insert Position**](https://leetcode.com/problems/search-insert-position/)                                                             |    `Array`    |  **Easy**  |                        [Solution](../LeetCode/Array/0035.%20Search%20Insert%20Position.cpp)                         |
+| [**73. Set Matrix Zeroes**](https://leetcode.com/problems/set-matrix-zeroes/)                                                                       |    `Array`    | **Medium** |                           [Solution](../LeetCode/Array/0073.%20Set%20Matrix%20Zeroes.cpp)                           |
+| [**74. Search a 2D Matrix**](https://leetcode.com/problems/search-a-2d-matrix/)                                                                     |    `Array`    |  **Easy**  |                         [Solution](../LeetCode/Array/0074.%20Search%20a%202D%20Matrix.cpp)                          |
+| [**83. Remove Duplicates from Sorted List**](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                     | `Linked List` |  **Easy**  |            [Solution](../LeetCode/Linked%20List/0083.%20Remove%20Duplicates%20from%20Sorted%20List.cpp)             |
+| [**88. Merge Sorted Array**](https://leetcode.com/problems/merge-sorted-array/)                                                                     |    `Array`    |  **Easy**  |                          [Solution](../LeetCode/Array/0088.%20Merge%20Sorted%20Array.cpp)                           |
+| [**104. Maximum Depth of Binary Tree**](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                |    `Tree`     |  **Easy**  |                        [Solution](../Tree/0104.%20Maximum%20Depth%20of%20Binary%20Tree.cppp)                        |
+| [**118. Pascal's Triangle**](https://leetcode.com/problems/pascals-triangle/)                                                                       |    `Array`    |  **Easy**  |                            [Solution](../LeetCode/Array/0118.%20Pascal's%20Triangle.cpp)                            |
+| [**136. Single Number**](https://leetcode.com/problems/single-number/)                                                                              |    `Array`    |  **Easy**  |                              [Solution](../LeetCode/Array/0136.%20Single%20Number.cpp)                              |
+| [**141. Linked List Cycle**](https://leetcode.com/problems/linked-list-cycle/)                                                                      | `Linked List` |  **Easy**  |                       [Solution](../LeetCode/Linked%20List/0141.%20Linked%20List%20Cycle.cpp)                       |
+| [**160. Intersection of Two Linked Lists**](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                        | `Linked List` |  **Easy**  |             [Solution](../LeetCode/Linked%20List/0160.%20Intersection%20of%20Two%20Linked%20Lists.cpp)              |
+| [**171. Excel Sheet Column Number**](https://leetcode.com/problems/excel-sheet-column-number/)                                                      |   `String`    |  **Easy**  |                     [Solution](../LeetCode/String/0171.%20Excel%20Sheet%20Column%20Number.cpp)                      |
+| [**203. Remove Linked List Elements**](https://leetcode.com/problems/remove-linked-list-elements/)                                                  | `Linked List` |  **Easy**  |                 [Solution](../LeetCode/Linked%20List/0203.%20Remove%20Linked%20List%20Elements.cpp)                 |
+| [**206. Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/)                                                                  | `Linked List` |  **Easy**  |                      [Solution](../LeetCode/Linked%20List/0206.%20Reverse%20Linked%20List.cpp)                      |
+| [**217. Contains Duplicate**](https://leetcode.com/problems/contains-duplicate/)                                                                    |    `Array`    |  **Easy**  |                           [Solution](../LeetCode/Array/0217.%20Contains%20Duplicate.cpp)                            |
+| [**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)                                                            | `Linked List` |  **Easy**  |                    [Solution](../LeetCode/Linked%20List/0234.%20Palindrome%20Linked%20List.cpp)                     |
+| [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)                                                | `Linked List` |  **Easy**  |                    [Solution](../Linked%20List/0237.Delete%20Node%20in%20a%20Linked%20List.cpp)                     |
+| [**242. Valid Anagram**](https://leetcode.com/problems/valid-anagram/)                                                                              | `Hash Table`  |  **Easy**  |                            [Solution](../LeetCode/Hash_Table/242.%20Valid%20Anagram.cpp)                            |
+| [**287. Find the Duplicate Number**](https://leetcode.com/problems/find-the-duplicate-number/)                                                      |    `Array`    |  **Easy**  |                          [Solution](../Array/0287.%20Find%20the%20Duplicate%20Number.cpp)                           |
+| [**344. Reverse String**](https://leetcode.com/problems/reverse-string/)                                                                            |   `String`    |  **Easy**  |                             [Solution](../LeetCode/String/0344.%20Reverse%20String.cpp)                             |
+| [**680. Valid Palindrome II**](https://leetcode.com/problems/valid-palindrome-ii/)                                                                  |   `String`    |  **Easy**  |                         [Solution](../LeetCode/String/0680.%20Valid%20Palindrome%20II.cpp)                          |
+| [**705. Design HashSet**](https://leetcode.com/problems/design-hashset/)                                                                            | `Linked List` |  **Easy**  |                         [Solution](../LeetCode/Linked%20List/0705.%20Design%20HashSet.cpp)                          |
+| [**771. Jewels and Stones**](https://leetcode.com/problems/jewels-and-stones/)                                                                      |   `String`    |  **Easy**  |                          [Solution](../LeetCode/String/0771.%20Jewels%20and%20Stones.cpp)                           |
+| [**832. Flipping an Image**](https://leetcode.com/problems/flipping-an-image/)                                                                      |    `Array`    |  **Easy**  |                           [Solution](../LeetCode/Array/0832.%20Flipping%20an%20Image.cpp)                           |
+| [**1221. Split a String in Balanced Strings**](https://leetcode.com/problems/split-a-string-in-balanced-strings/)                                   |   `String`    |  **Easy**  |              [Solution](../LeetCode./String/1221.%20Split%20a%20String%20in%20Balanced%20Strings.cpp)               |
+| [**1290. Convert Binary Number in a Linked List to Integer**](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)     | `Linked List` |  **Easy**  | [Solution](../LeetCode/Linked%20List/1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer.cpp) |
+| [**1313. Decompress Run-Length Encoded List**](https://leetcode.com/problems/decompress-run-length-encoded-list/)                                   |    `Array`    |  **Easy**  |                 [Solution](../LeetCode/Array/1313.%20Decompress%20Run-Length%20Encoded%20List.cpp)                  |
+| [**1431. Kids With the Greatest Number of Candies**](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)                       |    `Array`    |  **Easy**  |           [Solution](../LeetCode/Array/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies.cpp)            |
+| [**1470. Shuffle the Array**](https://leetcode.com/problems/shuffle-the-array/)                                                                     |    `Array`    |  **Easy**  |                           [Solution](../LeetCode/Array/1470.%20Shuffle%20the%20Array.cpp)                           |
+| [**1480. Running Sum of 1d Array**](https://leetcode.com/problems/running-sum-of-1d-array/)                                                         |    `Array`    |  **Easy**  |                      [Solution](../LeetCode/Array/1480.%20Running%20Sum%20of%201d%20Array.cpp)                      |
+| [**1512. Number of Good Pairs**](https://leetcode.com/problems/number-of-good-pairs/)                                                               |    `Array`    |  **Easy**  |                        [Solution](../LeetCode/Array/1512.%20Number%20of%20Good%20Pairs.cpp)                         |
+| [**1528. Shuffle String**](https://leetcode.com/problems/shuffle-string/)                                                                           |   `String`    |  **Easy**  |                             [Solution](../LeetCode/String/1528.%20Shuffle%20String.cpp)                             |
+| [**1534. Count Good Triplets**](https://leetcode.com/problems/count-good-triplets/)                                                                 |    `Array`    |  **Easy**  |                          [Solution](../LeetCode/Array/1534.%20Count%20Good%20Triplets.cpp)                          |
+| [**1662. Check If Two String Arrays are Equivalent**](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)                     |   `String`    |  **Easy**  |          [Solution](../LeetCode/String/1662.%20Check%20If%20Two%20String%20Arrays%20are%20Equivalent.cpp)           |
+| [**1684. Count the Number of Consistent Strings**](https://leetcode.com/problems/count-the-number-of-consistent-strings/)                           |   `String`    |  **Easy**  |                      [Solution](../LeetCode/String/1678.%20Goal%20Parser%20Interpretation.cpp)                      |
+| [**1678. Goal Parser Interpretation**](https://leetcode.com/problems/goal-parser-interpretation/)                                                   |   `String`    |  **Easy**  |                      [Solution](../LeetCode/String/1678.%20Goal%20Parser%20Interpretation.cpp)                      |
+| [**1773. Count Items Matching a Rule**](https://leetcode.com/problems/count-items-matching-a-rule/)                                                 |   `String`    |  **Easy**  |                   [Solution](../LeetCode/String/1773.%20Count%20Items%20Matching%20a%20Rule.cpp)                    |
+| [**1920. Build Array from Permutation**](https://leetcode.com/problems/build-array-from-permutation/)                                               |    `Array`    |  **Easy**  |                    [Solution](../LeetCode/Array/1920.%20Build%20Array%20from%20Permutation.cpp)                     |
+| [**1929. Concatenation of Array**](https://leetcode.com/problems/concatenation-of-array/)                                                           |    `Array`    |  **Easy**  |                        [Solution](../LeetCode/Array/1929.%20Concatenation%20of%20Array.cpp)                         |
+| [**2006. Count Number of Pairs With Absolute Difference K**](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)       |    `Array`    |  **Easy**  |      [Solution](../LeetCode/Array/2006.%20Count%20Number%20of%20Pairs%20With%20Absolute%20Difference%20K.cpp)       |
+| [**2011. Final Value of Variable After Performing Operations**](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) |    `Array`    |  **Easy**  |      [Solution](../LeetCode/Array/2011.%20Final%20Value%20of%20Variable%20After%20Performing%20Operations.cpp)      |
+| [**2114. Maximum Number of Words Found in Sentences**](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)                   |    `Array`    |  **Easy**  |          [Solution](../LeetCode/Array/2114.%20Maximum%20Number%20of%20Words%20Found%20in%20Sentences.cpp)           |
 
   </div>
   
-  ## Topic Wise Solved List
+## Topic Wise Solved List
   
-* [**Array**](https://git.io/JPH6e)
-* [**Math**](https://git.io/JX4f1)
-* [**Linked List**](https://git.io/JPgWy)
+* [**Array**](../LeetCode/Array/)
+* [**String**](../LeetCode/String/)
+* [**Linked List**](../LeetCode/Linked%20List/)
+* [**Hash Table**](../LeetCode/Hash_Table/)
+* [**Tree**](../LeetCode/Tree/)
+* [**Math**](../LeetCode/Math/)
