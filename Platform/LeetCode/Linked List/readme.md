@@ -2,19 +2,24 @@
   
 # Linked List 🔥
 
-  |Question|Difficulty|Solution|
-  |:---- | :----: | :-----: |
-  | [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/) | **Easy** | [Solution](https://git.io/JPKF4)|
-  |[**24. Swap Nodes in Pairs**](https://leetcode.com/problems/swap-nodes-in-pairs/)| **Medium** | [**Solution**]() |
-  | [**25. Reverse Nodes in k-Group**](https://leetcode.com/problems/reverse-nodes-in-k-group/) | **Hard** | [Solution](https://git.io/JPr2f)|
-  | [**83. Remove Duplicates from Sorted List**](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|**Easy** | [Solution](https://github.com/swayamterode/Codes/blob/main/LeetCode/Linked%20List/0024.%20Swap%20Nodes%20in%20Pairs.cpp)|
-  |[**160. Intersection of Two Linked Lists**](https://leetcode.com/problems/intersection-of-two-linked-lists/) |**Easy**|[Solution](https://github.com/swayamterode/Codes/blob/main/Platform/LeetCode/Linked%20List/0160.%20Intersection%20of%20Two%20Linked%20Lists.cpp)|
-  | [**203. Remove Linked List Elements**](https://leetcode.com/problems/remove-linked-list-elements/) | **Easy** | [Solution](https://git.io/J1tVY) |
-  | [**206. Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/)| **Easy** | [Solution](https://git.io/JPV3B)|
-  |[**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)|**Easy**|[Solution](https://github.com/swayamterode/Codes/blob/main/Platform/LeetCode/Linked%20List/0234.%20Palindrome%20Linked%20List.cpp)|
-  | [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)| **Easy** | [Solution](https://git.io/JPgWd)|
-  |[**705. Design HashSet**](https://leetcode.com/problems/design-hashset/)|**Easy**|[Solution](https://github.com/swayamterode/Codes/blob/main/Platform/LeetCode/Linked%20List/0705.%20Design%20HashSet.cpp)|
-  | [**876. Middle of the Linked List**](https://git.io/JPgle) | **Easy** | [Solution](https://git.io/JPgle) |
-  | [**1290. Convert Binary Number in a Linked List to Integer**](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)| **Easy** | [Solution](https://git.io/JPgaZ)|
-  
+| Question                                                                                                                                        | Related Topic | Difficulty |                                                      Solution                                                       |
+| :---------------------------------------------------------------------------------------------------------------------------------------------- | :-----------: | :--------: | :-----------------------------------------------------------------------------------------------------------------: |
+| [**21. Merge Two Sorted Lists**](https://leetcode.com/problems/merge-two-sorted-lists/)                                                         | `Linked List` |  **Easy**  |                        [Solution](../Linked%20List/0021.%20Merge%20Two%20Sorted%20Lists.cpp)                        |
+| [**24. Swap Nodes in Pairs**](https://leetcode.com/problems/swap-nodes-in-pairs/)                                                               | `Linked List` | **Medium** |                         [Solution](../Linked%20List/0024.%20Swap%20Nodes%20in%20Pairs.cpp)                          |
+| [**25. Reverse Nodes in k-Group**](https://leetcode.com/problems/reverse-nodes-in-k-group/)                                                     | `Linked List` |  **Hard**  |                       [Solution](../Linked%20List/0025.%20Reverse%20Nodes%20in%20k-Group.cpp)                       |
+| [**83. Remove Duplicates from Sorted List**](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                 | `Linked List` |  **Easy**  |                 [Solution](../Linked%20List/0083.%20Remove%20Duplicates%20from%20Sorted%20List.cpp)                 |
+| [**88. Merge Sorted Array**](https://leetcode.com/problems/merge-sorted-array/)                                                                 |    `Array`    |  **Easy**  |                               [Solution](../Array/0088.%20Merge%20Sorted%20Array.cpp)                               |
+| [**118. Pascal's Triangle**](https://leetcode.com/problems/pascals-triangle/)                                                                   |    `Array`    |  **Easy**  |                                [Solution](../Array/0118.%20Pascal's%20Triangle.cpp)                                 |
+| [**136. Single Number**](https://leetcode.com/problems/single-number/)                                                                          |    `Array`    |  **Easy**  |                                  [Solution](../Array/0136.%20Single%20Number.cpp)                                   |
+| [**141. Linked List Cycle**](https://leetcode.com/problems/linked-list-cycle/)                                                                  | `Linked List` |  **Easy**  |                           [Solution](../Linked%20List/0141.%20Linked%20List%20Cycle.cpp)                            |
+| [**160. Intersection of Two Linked Lists**](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                    | `Linked List` |  **Easy**  |                  [Solution](../Linked%20List/0160.%20Intersection%20of%20Two%20Linked%20Lists.cpp)                  |
+| [**203. Remove Linked List Elements**](https://leetcode.com/problems/remove-linked-list-elements/)                                              | `Linked List` |  **Easy**  |                     [Solution](../Linked%20List/0203.%20Remove%20Linked%20List%20Elements.cpp)                      |
+| [**206. Reverse Linked List**](https://leetcode.com/problems/reverse-linked-list/)                                                              | `Linked List` |  **Easy**  |                          [Solution](../Linked%20List/0206.%20Reverse%20Linked%20List.cpp)                           |
+| [**217. Contains Duplicate**](https://leetcode.com/problems/contains-duplicate/)                                                                |    `Array`    |  **Easy**  |                                [Solution](../Array/0217.%20Contains%20Duplicate.cpp)                                |
+| [**234. Palindrome Linked List**](https://leetcode.com/problems/palindrome-linked-list/)                                                        | `Linked List` |  **Easy**  |                         [Solution](../Linked%20List/0234.%20Palindrome%20Linked%20List.cpp)                         |
+| [**237. Delete Node in a Linked List**](https://leetcode.com/problems/delete-node-in-a-linked-list/)                                            | `Linked List` |  **Easy**  |                    [Solution](../Linked%20List/0237.Delete%20Node%20in%20a%20Linked%20List.cpp)                     |
+| [**705. Design HashSet**](https://leetcode.com/problems/design-hashset/)                                                                        | `Linked List` |  **Easy**  |                              [Solution](../Linked%20List/0705.%20Design%20HashSet.cpp)                              |
+| [**876. Middle of the Linked List**](../Linked%20List/0876.%20Middle%20of%20the%20Linked%20List.cpp)                                            | `Linked List` |  **Easy**  |                                          [Solution](../Linked%20List/0876.%20Middle%20of%20the%20Linked%20List.cpp)                                           |
+| [**1290. Convert Binary Number in a Linked List to Integer**](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | `Linked List` |  **Easy**  |     [Solution](../Linked%20List/1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer.cpp)      |
+
 </div>
