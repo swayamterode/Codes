@@ -2,6 +2,12 @@
 
 # GeeksforGeeks
 
+</div>
+
+## DSA
+
+<details>
+
 | Sr  | Problems                                                                                                                                                           |    Level     |                                                              Solution                                                               |       Topics       |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------: | :---------------------------------------------------------------------------------------------------------------------------------: | :----------------: |
 | 1.  | [**Sort an array of 0s, 1s and 2s**](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1#)                                             | **`Basic`**  |                    [Solution ✔️](../GeeksforGeeks/Arrays/001.Sort%20an%20array%20of%200s%2C%201s%20and%202s.cpp)                    |      `Array`       |
@@ -16,7 +22,7 @@
 | 10. | [**Kadane's Algorithm**](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1#)                                                              | **`Medium`** |                                 [Solution ✔️](../GeeksforGeeks/Arrays/007.Kadane's%20Algorithm.cpp)                                 |      `Array`       |
 | 11. | [**Minimize the Heights II**](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1#)                                                             | **`Medium`** |                               [Solution ✔️](../GeeksforGeeks/Arrays/008.Minimize_the_Heights_II.cpp)                                |      `Array`       |
 | 12. | [**Find the element that appears once**](https://practice.geeksforgeeks.org/problems/element-appearing-once2552/1#)                                                | **`Medium`** |                          [Solution ✔️](../GeeksforGeeks/Arrays/009.Find_the_element_that_appears_once.cpp)                          |      `Array`       |
-| 13. | [**Binary Search**](https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1/?page=1&curated[]=1&sortBy=submissions#)                                | **`Basic`**  |                                  [Solution ✔️](../GeeksforGeeks/Arrays/010.Binary_Search.cpp)                                   |      `Array`       |
-| 11. | [**Merge Without Extra Space**](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1#)                                                        |  **`Hard`**  |                            [Solution ✔️](../GeeksforGeeks\Arrays\011.Merge_Without_Extra_Space.cpp)                             |      `Array`       |
+| 13. | [**Binary Search**](https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1/?page=1&curated[]=1&sortBy=submissions#)                                | **`Basic`**  |                                    [Solution ✔️](../GeeksforGeeks/Arrays/010.Binary_Search.cpp)                                     |      `Array`       |
+| 11. | [**Merge Without Extra Space**](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1#)                                                        |  **`Hard`**  |                              [Solution ✔️](../GeeksforGeeks\Arrays\011.Merge_Without_Extra_Space.cpp)                               |      `Array`       |
 
-</div>
+</details>
