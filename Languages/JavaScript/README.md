@@ -49,7 +49,7 @@ If you want a general rule: always declare variables with const.
 If you think the value of the variable can change, use let.
 ```
 
-#### Example
+**Example**:
 
 ```js
 const price1 = 34; //this values cannot change so we have used const
@@ -60,8 +60,6 @@ let total = price1 + price2;
 ---
 
 </details>
-
-<!---------------------------------------------------------------------------------------------------------------------------------------->
 
 ### 2. Identifiers
 
@@ -140,7 +138,7 @@ console.log("----------------------");
 
 ✔️ **OUTPUT**
 
-![typeof () explained](./public/7.1.png)
+![typeof () explained](../JavaScript/pages/Basics/img/datatypes/001.typeof.png)
 
 An example of BigInt()
 
@@ -153,7 +151,7 @@ console.log(Number.MAX_SAFE_INTEGER);
 
 ✔️ **OUTPUT**
 
-![BigInt()](./public/7.2.png)
+![BigInt()](../JavaScript/pages/Basics/img/datatypes/002.BigInt_function.png)
 
 Actual usage of BigInt( )
 
@@ -164,7 +162,7 @@ let bigNumber = BigInt(123456789123456789);
 console.log("BigInt->", bigNumber);
 ```
 
-![Use of BigInt](./public/7.3.png)
+![Use of BigInt](../JavaScript/pages/Basics/img/datatypes/003.Use_of_BigInt.png)
 
 **NOTE**:
 
@@ -180,23 +178,17 @@ console.log(num1 + num2);
 
 ✖️ **OUTPUT**
 
-![Error](./public/7.4.png)
+![Error](../JavaScript/pages/Basics/img/datatypes/004.BigInt_error.png)
 
 </details>
 
 </details>
-
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <div align="left">
 
 ## var, let & const
 
-</div>
-
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
-  <details>
+<details>
 
 ### 1. var
 
@@ -247,15 +239,13 @@ console.log(lastName);
 
 **The above code gives the following error:**
 
-![No Error Code!](./public/1.1.Error.png)
+![No Error Code!](../JavaScript/pages/Basics/img/var/001.var_Code_Error.png)
 
-![Example](./public/1.png)
+![Example](../JavaScript/pages/Basics/img/var/002.var_Code.png)
 
 The above error has occurred because we have used `"use strict"`.
 
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
-### Rules for var
+#### Rules for var
 
 ```js
 //Rules for defining var
@@ -275,21 +265,23 @@ console.log(value1);
 //start with small letter and use camelCase
 ```
 
-Things **not** to do! 🙅🚫
+- Wrong Syntax 🙅🚫
 
-![1](./public/2.1.var_syntaxERROR.png)
+![var syntax Error](../JavaScript/pages/Basics/img/var/004.var_syntax_error.png)
+
+> 💡 Don't use number at the for decalring a variable
 
 ✔️ Correct Syntax
 
-![2](./public/2.2.Error_resolved.png)
+![var rules](../JavaScript/pages/Basics/img/var/005.var_Rules_error_resolved.png)
 
 **Output**:
 
-![3](<./public/2.3.Erro_resolved(console).png>)
+![Var Console Output](../JavaScript/pages/Basics/img/var/006.var_error_resolved_console.png)
 
 </details>
 
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--=====  End of var  ======*/ -->
 
 ### 2. let
 
@@ -305,9 +297,11 @@ console.log(firstName);
 
 ✔️ **OUTPUT**
 
-![3.Error Resolved](./public/3.2.Error_resolved.png)
+![3.Error Resolved](../JavaScript/pages/Basics/img/let/001.let_correct_output.png)
 
 - Things to avoid 🙅 🚫
+
+- This gives us syntax error:
 
 ```js
 let firstName = "Sunny";
@@ -316,7 +310,7 @@ let firstName = "Sunny";
 
 ✖️ **OUTPUT**
 
-![3.let keyword Error](./public/3.1.let_error.png)
+![3.let keyword Error](../JavaScript/pages/Basics/img/let/002.let_declaration_error.png)
 
 The `let` keyword was introduced in ES6.
 
@@ -346,9 +340,7 @@ But can use a different variable name to see the difference.
 
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-### Block Scope
-
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+#### Block Scope
 
 Before ES6 (2015), JavaScript had only **Global Scope** and **Function Scope.**
 
@@ -406,7 +398,15 @@ The variable declared with <code>let</code> keyword cannot be accessed from outs
 
 <details>
 
-> 💡const value can never be changed
+> 💡 const value can never be changed
+
+**RULES FOR `const` to be followed**
+
+> ```cpp
+> - Variables defined with const cannot be Redeclared.
+> - Variables defined with const cannot be Reassigned.
+> - Variables defined with const have Block Scope.
+> ```
 
 ✔️ **This is how one should declare const keyword**
 
@@ -418,9 +418,9 @@ console.log(pi);
 
 ✔️ **OUTPUT**
 
-![const](./public/4.1.consts_keyword.png)
+![const](../JavaScript/pages/Basics/img/const/001.consts_output.png)
 
-✖️ **Things to avoid:**
+✖️ **Some mistakes:**
 
 ```js
 // decalre constants
@@ -429,32 +429,26 @@ pi = 3.1451;
 console.log(pi);
 ```
 
+> 📓 Const cannot be redefined
+
 ✖️ **OUTPUT**
 
-![const](./public/4.2.PI_error.png)
+![PI Error in Console](../JavaScript/pages/Basics/img/const/002.const_PI_error.png)
 
-> Difference later between let and const
+> Difference between let and const later 😄
 
-**RULES FOR `const` to be followed**
-
-```text
-- Variables defined with const cannot be Redeclared.
-- Variables defined with const cannot be Reassigned.
-- Variable defined with const have Block Scope.
-```
-
-### When to use JavaScript const?
+#### When to use JavaScript const?
 
 <details>
 
 As a general rule, always declare a variable with `const` unless you know that the value will change.
 
-Use const when you declare:
+**Use const when you declare**:
 
-- A new Array
-- A new Object
-- A new Function
-- A new RegExp
+> - A new **Array**
+> - A new **Object**
+> - A new **Function**
+> - A new **RegExp**
 
 The keyword `const` is a little misleading.
 
@@ -462,14 +456,14 @@ It does not define a constant value. It defines a constant reference to a value.
 
 Because of this, you can **NOT**:
 
-- **Reassign** a constant value
-- **Reassign** a constant array
-- **Reassign** a constant object
+> - **Reassign** a constant value
+> - **Reassign** a constant array
+> - **Reassign** a constant object
 
 But you **CAN**:
 
-- Change the elements of the constant array
-- Change the properties of constant object
+> - Change the elements of the constant array
+> - Change the properties of constant object
 
 **Example:**
 
@@ -484,22 +478,20 @@ studentList[0] = "Tim";
 studentList.push("Aditya");
 ```
 
-### 👎 Try not to do this
+#### 👎 Mistakes to avoid
 
 ```js
 const studentList = ["Swayam", "Ram", "Sham"];
 studentList = ["Tommy", "Raj"]; //Error
 ```
 
-![Const error](https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/004.Const%20array%20error.png)
+![Const error](../JavaScript/pages/Basics/img/const/003.const_array_error.png)
 
 **Avoid reinitializing the const variables** ✔️
 
 </details>
 
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
-### Const Cannot be Reassigned
+#### Const Cannot be Reassigned
 
 <details>
 
@@ -528,14 +520,13 @@ PI = 3.141592;
 
 </details>
 
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
-### Constant Objects
+#### Constant Objects
 
 <details>
 
 - You can change the properties of a constant object:
-  **Example:**
+
+**Example:**
 
 ```js
 const car = { type: "Audi", model: "Q3", color: "black" };
@@ -547,7 +538,8 @@ car.dealer = "RAM";
 ```
 
 - But you can NOT reassign the object
-  **Example:**
+
+**Example:**
 
 ```js
 const car = { type: "Fiat", model: "500", color: "white" };
@@ -555,15 +547,12 @@ const car = { type: "Fiat", model: "500", color: "white" };
 car = { type: "Volvo", model: "EX60", color: "red" }; // ERROR
 ```
 
-![5](https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/public/005.png)
+![const error](../JavaScript/pages/Basics/img/const/004.const_object_error.png)
 
 </details>
 
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
 </details>
 
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
 </details>
 
 ## Redeclaring
@@ -697,7 +686,6 @@ let carName = "Volvo";
 
 </details>
 
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
 </details>
 
 ## String
@@ -706,7 +694,7 @@ let carName = "Volvo";
 
 ### 1. String Indexing
 
-  <details>
+<details>
   
 ```js
 // string indexing
@@ -729,25 +717,27 @@ console.log("Total length of the", firstName.length);
 console.log("Last index of the string: ", firstName.length - 1);
 
 //how to find last index element of the string
-console.log("Last element of the string: ", firstName[firstName.length - 1]);
+console.log("Last element of the string: ", firstName[firstName.length - 1]);\
 
 ````
 
 ✔️ **OUTPUT**
 
-![Code output](./public/5.2.String_indexing_output.png)
+![Code output](../JavaScript/pages/Basics/img/string/002.String_indexing_output.png)
+
+✔️ **string Length()**
 
 - **stringName.length explained**:
 
-![stirng length](./public/5.1.string.length.png)
+![string length](../JavaScript/pages/Basics/img/string/001.string_length.png)
 
-  </details>
+</details>
 
-  ---
-
-  ### 2. String Methods
+### 2. String Methods
 
 <details>
+
+Easy to understand Code:
 
 ```js
 //trim() - used to remove spaces in the string!
@@ -779,11 +769,11 @@ console.log("String contains:", user2);
 user2 = user2.slice(0, 4);
 console.log("Used slice()", user2);
 console.log("---------------------------");
-````
+```
 
 ✔️ **OUTPUT:**
 
-![String methods OUTPUT](<./public/6.1.methods().png>)
+![String methods OUTPUT](../JavaScript/pages/Basics/img/string/003.string_methods-function.png)
 
 </details>
 
@@ -818,7 +808,7 @@ console.log("\n\n\n");
 
 ✔️**OUTPUT:**
 
-![String Concatenation](./public/8.1.png)
+![String Concatenation](../JavaScript/pages/Basics/img/string/004.string_concatenation.png)
 
 🔥**NOTE**:
 
@@ -827,13 +817,13 @@ console.log("\n\n\n");
 
 </details>
 
-## String Templates
+### 4. String Templates
 
 <details>
 
-Using string templates is easy
+Using string templates is **easy**
 
-use `${variable_name}`
+> use `${variable_name}`
 
 This can be used in strings, to replace the use of executive + (plus) in the string!
 
@@ -847,7 +837,7 @@ console.log(aboutMe);
 
 ✔️ **OUTPUT:**
 
-![String Templates](./public/8.2.png)
+![String Templates](../JavaScript/pages/Basics/img/string/005.string_template.png)
 
 </details>
 
@@ -942,7 +932,7 @@ console.log("Multiplication:", multiplies(num1, num2));
 
 ✔️ **OUTPUT**
 
-![Output](https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/pages/function/exercise/Functions.png)
+![Output](../JavaScript/pages/Functions/exercise/img/Functions.png)
 
 </details>
 
@@ -1050,9 +1040,8 @@ console.log(introducer("Swayam", "Black"));
 
 ✔️ **OUTPUT**
 
-![Arrays](https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/pages/Arrays_and_objects/img/001.Arrays.PNG)
+![Arrays](../JavaScript/pages/Arrays_and_objects/img/001.Arrays.PNG)
 
-![Objects](https://github.com/swayamterode/Codes/blob/main/Languages/JavaScript/pages/Arrays_and_objects/img/002.Objects.PNG)
-
+![Objects](../JavaScript/pages/Arrays_and_objects/img/002.Arrays.PNG)
 
 </details>

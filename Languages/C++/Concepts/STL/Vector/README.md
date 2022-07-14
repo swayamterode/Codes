@@ -54,7 +54,7 @@ vector<int> vec(50, 9); // all the 50 element in the vector are set to 9.
     cout << vec[41];        // if print and index in range from 0 to 49 we would get 9.
 ```
 
-# Iterators
+## Iterators
 
 There are several functions which are used in the vectors.
 
@@ -62,7 +62,7 @@ There are several functions which are used in the vectors.
 1. begin()   - Returns an element which is in the begining in the vector.
 2. end()     - Returns an element which is at end of the vector.
 3. rbegin()  - Returns reverse vector poiting to the last element in the vector.
-4. rend()    - Returns reverse vector poiting to the first elemen in the vector. 
+4. rend()    - Returns reverse vector poiting to the first elemen in the vector.
 5. crbegin() - Returns constant iterator pointing to first element **REVERSE**.
 6. crend()   - Returns constant iterator pointing to last element **REVERSE**.
 7. cbegin()  - Returns constant iterator pointing to first element.
@@ -70,6 +70,8 @@ There are several functions which are used in the vectors.
 ```
 
 ## Example of begin() & end()
+
+<details>
 
 ```cpp
 vector<int> v;
@@ -92,8 +94,126 @@ vector<int> v;
 
 ```
 
-**OUTPUT**
-<p>
-    <img src="https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Concepts/STL/Vector/Output-images/begin()%20%26%20end().png" />
-</p>
+✔️ **OUTPUT**
 
+![begin() and end()](../Vector/img/001.begin&end.png)
+
+</details>
+
+## Example of rbegin() and rend()
+
+<details>
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int> v1;
+    int n;
+    cout << "Enter the size of vector: ";
+    cin >> n;
+    // input
+    for (int i = 1; i <= n; i++)
+    {
+        v1.push_back(i);
+    }
+    // same ouptut as input was given
+    cout << "Output using of begin() & end(): ";
+    for (auto i = v1.begin(); i != v1.end(); ++i)
+    {
+        cout << *i << " ";
+    }
+    cout << endl;
+    // This will print in reverse manner!
+    cout << "Output using rbegin() and rend(): ";
+    for (auto it = v1.rbegin(); it != v1.rend(); ++it)
+    {
+        cout << *it << " ";
+    }
+    return 0;
+}
+```
+
+✔️ **OUTPUT**
+
+![rbegin and rend](../Vector/img/003.rbegin.png)
+
+</details>
+
+## Example of crbegin() and crend()
+
+<details>
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int> v1;
+    int n;
+    cout << "Enter the size of vector: ";
+    cin >> n;
+    // input
+    for (int i = 1; i <= n; i++)
+    {
+        v1.push_back(i);
+    }
+    // same ouptut as input was given
+    cout << "Output using of begin() & end(): ";
+    for (auto i = v1.begin(); i != v1.end(); ++i)
+    {
+        cout << *i << " ";
+    }
+    cout << endl;
+    // This will print in reverse manner!
+    cout << "Output using rbegin() and rend(): ";
+    for (auto it = v1.rbegin(); it != v1.rend(); ++it)
+    {
+        cout << *it << " ";
+    }
+    return 0;
+}
+```
+
+✔️ **OUTPUT**
+
+![crbegin and crend](../Vector/img/002.crbegin&crend.png)
+
+</details>
+
+## Example of cbegin() and cend()
+
+<details>
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int> v1;
+
+    int n;
+    cout << "Enter the size of Vector: ";
+    cin >> n;
+    // input
+    for (int i = 1; i <= n; i++)
+    {
+        v1.push_back(i);
+    }
+    // Display of vector
+    cout << "Output using of cbegin() & cend(): ";
+    for (auto i = v1.cbegin(); i != v1.cend(); ++i)
+    {
+        cout << *i << " ";
+    }
+
+    return 0;
+}
+```
+
+✔️ **OUTPUT**
+
+![cbegin()](../Vector/img/004.cbegin_and_cend.png)
+
+</details>
