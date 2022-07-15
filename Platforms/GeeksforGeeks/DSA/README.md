@@ -22,7 +22,7 @@
 | 14. | [**Find minimum and maximum element in an array**](https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1/)                | `String`       | **Basic**  | [Solution](../DSA/Strings/002.Find_minimum_and_maximum_element_in_an_array.cpp)                                        |
 | 15. | [**Kth smallest element**](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1#)                                                                | `String`       | **Medium** | [Solution](../DSA/Strings/003.Kth_smallest_element.cpp)|
 | 16. |[**Subarray with given sum**](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1/?page=1&sortBy=submissions#)| `Arrays`       | **Easy**   | [Solution](../DSA/Arrays/012.Subarray_with_given_sum.cpp)    |
-| 17. |[**Penalty Shooters**](https://practice.geeksforgeeks.org/problems/penalty-shooters4238/1/?page=1&difficulty[]=0&sortBy=accuracy#) |  `Mathematical` | **Easy**| [Solution](../Mathematical/001.Penalty_Shooters.cpp)|
+| 17. |[**Penalty Shooters**](https://practice.geeksforgeeks.org/problems/penalty-shooters4238/1/?page=1&difficulty[]=0&sortBy=accuracy#) |  `Mathematical` | **Easy**| [Solution](../DSA/Mathematical/001.Penalty_Shooters.cpp)|
 
 
 
