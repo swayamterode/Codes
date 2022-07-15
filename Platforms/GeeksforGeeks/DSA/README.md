@@ -20,6 +20,8 @@
 | 12. | [**Max Min**](https://practice.geeksforgeeks.org/problems/max-min/1/?page=1&sortBy=accuracy#)                                                                      | `Greedy`       | **Easy**   | [Solution](../Greedy/001.Max_Min.cpp)                                                                              |
 | 13. | [**Reverse a String**](https://docs.google.com/spreadsheets/d/1Q54syXIR46PVxCP7Mz84upjgqb4qYVTdjsOAszPyuUg/edit#gid=0&range=B4)                                    | `String`       | **Basic**  | [Solution](../Strings/001.Reverse_a_String.cpp)                                                                    |
 | 14. | [**Find minimum and maximum element in an array**](https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1/)                | `String`       | **Basic**  | [Solution](../Strings/002.Find_minimum_and_maximum_element_in_an_array.cpp)                                        |
-| 15. | [**Kth smallest element**](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1#)                                                                | `String`       | **Medium** | [Solution](../Strings/003.Kth_smallest_element.cpp)                                                                |
+| 15. | [**Kth smallest element**](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1#)                                                                | `String`       | **Medium** | [Solution](../Strings/003.Kth_smallest_element.cpp)|
+| 16. |[**Subarray with given sum**](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1/?page=1&sortBy=submissions#)| `Arrays`       | **Easy**   | [Solution](../Arrays/012.Subarray_with_given_sum.cpp)    |
+
 
 </div>
