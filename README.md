@@ -24,11 +24,11 @@
 
 Let's Connects
 
-[![Gmail Badge](../Codes/DEV/Web_Development/social/google.png)](mailto:swayamterodex@gmail.com "Connect via Email")
-[![Linkedin Badge](../Codes/DEV/Web_Development/social/linkedin.png)](https://www.linkedin.com/in/swayamterode/ "Connect on LinkedIn")
-[![Instagram Badge](../Codes/DEV/Web_Development/social/instagram.png)](https://m.me/swayamterode "Connect on Instagram")
-[![Twitter Badge](../Codes/DEV/Web_Development/social/twitter.png)](https://twitter.com/intent/follow?screen_name=swayamterode "Follow on Twitter")
-[![Messenger Badge](../Codes/DEV/Web_Development/social/messenger.png)](https://m.me/terodeswayam "Connect on Facebook")
-[![Youtube](../Codes/DEV/Web_Development/social/youtube.png)](https://www.youtube.com/c/ProdSwym)
+[![Gmail Badge](../Codes/DEV/social/google.png)](mailto:swayamterodex@gmail.com "Connect via Email")
+[![Linkedin Badge](../Codes/DEV/social/linkedin.png)](https://www.linkedin.com/in/swayamterode/ "Connect on LinkedIn")
+[![Instagram Badge](../Codes/DEV/social/instagram.png)](https://m.me/swayamterode "Connect on Instagram")
+[![Twitter Badge](../Codes/DEV/social/twitter.png)](https://twitter.com/intent/follow?screen_name=swayamterode "Follow on Twitter")
+[![Messenger Badge](../Codes/DEV/social/messenger.png)](https://m.me/terodeswayam "Connect on Facebook")
+[![Youtube](../Codes/DEV/social/youtube.png)](https://www.youtube.com/c/ProdSwym)
 
 </div>
