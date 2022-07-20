@@ -1,17 +1,18 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     int n;
-    cin>>n;
-    int star=n;
+    cin >> n;
+    int star = n;
     for (int i = 0; i <= n; i++)
     {
-        for (int j = 0; j <star; j++)
+        for (int j = 0; j < star; j++)
         {
-            cout<<"*\t";
+            cout << "*\t";
         }
         star--;
-        cout<<endl;
+        cout << endl;
     }
     return 0;
 }

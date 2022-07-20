@@ -1,46 +1,31 @@
 # 2d Array
 
-## Question Set
-
-<details>
-
-### 1. 2d Arrays Demo
+## 1. 2d Arrays Demo
 
 <details>
 
 **Problem Statement :**
 
-<details>
-
-![1](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/1.0.2D_Array_demo.png)
+![1](../4.2D_Arrays/img/1.0.2D_Array_demo.png)
 
 **Sample Output:**
 
-> 2
->
-> 4
->
-> 11
->
-> 12
->
-> 13
->
-> 14
->
-> 21
->
-> 22
->
-> 23
->
-> 24
+```cpp
+2
+4
+11
+12
+13
+14
+21
+22
+23
+24
+```
 
-![Constraints](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/1.1.2D_Array.png)
+![Constraints](../4.2D_Arrays/img/1.1.2D_Array.png)
 
-![Output](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/1.1.3.2D_array.png)
-
-</details>
+![Output](../4.2D_Arrays/img/1.1.3.2D_array.png)
 
 **C++ Solution** ✔️
 
@@ -87,69 +72,44 @@ int main()
 
 </details>
 
----
-
-### 2. Matrix Multiplication
+## 2. Matrix Multiplication
 
 <details>
 
 **Problem Statement :**
 
-<details>
+![Martrix Mul](../4.2D_Arrays/img/2.1.0.Matrix_Multiplication.png)
 
-![Martrix Mul](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/2.1.0.Matrix_Multiplication.png)
-
-![Const](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/2.1.1.Matrix_Multiplication_Const.png)
+![Const](../4.2D_Arrays/img/2.1.1.Matrix_Multiplication_Const.png)
 
 Sample Input:
 
-> 2
->
-> 3
->
-> 10
->
-> 0
->
-> 0
->
-> 0
->
-> 20
->
-> 0
->
-> 3
->
-> 4
->
-> 1
->
-> 0
->
-> 1
->
-> 0
->
-> 0
->
-> 1
->
-> 1
->
-> 2
->
-> 1
->
-> 1
->
-> 0
->
-> 0
+```cpp
+2
+3
+10
+0
+0
+0
+20
+0
+3
+4
+1
+0
+1
+0
+0
+1
+1
+2
+1
+1
+0
+0
+```
 
-![Sample Output](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/2.1.2.Matrix_Multiplication_output.png)
-
-</details>
+![Sample Output](../4.2D_Arrays/img/2.1.2.Matrix_Multiplication_output.png)
 
 **C++ Solution** ✔️
 
@@ -234,79 +194,53 @@ int main(){
 
 </details>
 
----
-
-### 3. The State Of Wakanda - 1
+## 3. The State Of Wakanda - 1
 
 <details>
 
 **Problem Statement:**
 
-<details>
+![The_State_Of_Wakanda-1](../4.2D_Arrays/img/3.1.0.The_State_Of_Wakanda-1.png)
 
-![The_State_Of_Wakanda-1](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/3.1.0.The_State_Of_Wakanda-1.png)
+![Const](../4.2D_Arrays/img/3.1.1.The_State_Of_Wakanda-1_const.png)
 
-![Const](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/3.1.0.The_State_Of_Wakanda-1_const.png)
-
-![Sample Input Output](https://github.com/swayamterode/Codes/blob/main/Languages/C%2B%2B/Level_1/1.%20Basics%20of%20Programming/4.%202D%20Arrays/img/3.1.1.The_State_Of_Wakanda-1_Input_sample_output.png)
+![Sample Input Output](../4.2D_Arrays/img/3.1.2.The_State_Of_Wakanda-1_Input_sample_output.png)
 
 **Sample Input:**
 
-> 3
->
-> 4
->
-> 11
->
-> 12
->
-> 13
->
-> 14
->
-> 21
->
-> 22
->
-> 23
->
-> 24
->
-> 31
->
-> 32
->
-> 33
->
-> 34
+```cpp
+3
+4
+11
+12
+13
+14
+21
+22
+23
+24
+31
+32
+33
+34
+```
 
 **Sample Output:**
 
-> 11
->
-> 21
->
-> 31
->
-> 32
->
-> 22
->
-> 12
->
-> 13
->
-> 23
->
-> 33
->
-> 34
->
-> 24
->
-> 14
-
-</details>
+```cpp
+11
+21
+31
+32
+22
+12
+13
+23
+33
+34
+24
+14
+```
 
 **C++ Solution** ✔️
 
@@ -358,9 +292,5 @@ int main() {
 ```
 
 </details>
-
-</details>
-
----
 
 </details>

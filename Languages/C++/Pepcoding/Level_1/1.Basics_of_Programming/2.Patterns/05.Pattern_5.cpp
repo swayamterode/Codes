@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-int main() {
+int main()
+{
   int n;
   cin >> n;
   int space = n / 2;
@@ -22,7 +23,8 @@ int main() {
       space--;
       star += 2;
     }
-    else {
+    else
+    {
       space++;
       star -= 2;
     }

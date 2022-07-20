@@ -1,12 +1,13 @@
 #include <iostream>
 
 using namespace std;
-int main(int argc, char** argv) {
+int main(int argc, char **argv)
+{
   int n;
   cin >> n;
   for (int i = 1; i <= n; i++)
   {
-    for (int j = 1; j <= n ; j++)
+    for (int j = 1; j <= n; j++)
     {
 
       if (i == 1) // for row 1
@@ -15,7 +16,8 @@ int main(int argc, char** argv) {
         {
           cout << "*\t";
         }
-        else {
+        else
+        {
           cout << "\t";
         }
       }
@@ -37,7 +39,7 @@ int main(int argc, char** argv) {
       }
       else if (i < n)
       {
-        if (j == 1 || j == n / 2 + 1 ) // set of rows excluding last row
+        if (j == 1 || j == n / 2 + 1) // set of rows excluding last row
         {
           cout << "*\t";
         }

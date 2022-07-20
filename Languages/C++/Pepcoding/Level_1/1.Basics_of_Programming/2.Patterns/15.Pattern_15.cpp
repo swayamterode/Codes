@@ -1,6 +1,7 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main() {
+int main()
+{
   int n;
   cin >> n;
   int sp = n / 2;
@@ -8,26 +9,32 @@ int main() {
   int val = 1;
   for (int i = 1; i <= n; i++)
   {
-    for (int j = 1; j <= sp; j++){
+    for (int j = 1; j <= sp; j++)
+    {
       cout << "\t";
     }
     int cval = val;
-    for (int j = 1; j <= st; j++){
+    for (int j = 1; j <= st; j++)
+    {
       cout << cval << "\t";
-      //cval++;
-      if ( j <= st / 2){
+      // cval++;
+      if (j <= st / 2)
+      {
         cval++;
       }
-      else{
+      else
+      {
         cval--;
       }
     }
-    if (i <= n / 2){
+    if (i <= n / 2)
+    {
       sp--;
       st += 2;
       val++;
     }
-    else{
+    else
+    {
       sp++;
       st -= 2;
       val--;
