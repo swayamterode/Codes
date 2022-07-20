@@ -1,10 +1,12 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-void reverse(int* arr, int n) { //reverse function
+void reverse(int *arr, int n)
+{ // reverse function
   int i = 0;
   int j = n - 1;
-  while (i < j) {
+  while (i < j)
+  {
     int temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;
@@ -14,19 +16,23 @@ void reverse(int* arr, int n) { //reverse function
   }
 }
 
-void display(int* arr, int n) { //display function
-  for (int i = 0 ; i < n; i++) {
+void display(int *arr, int n)
+{ // display function
+  for (int i = 0; i < n; i++)
+  {
     cout << arr[i] << " ";
   }
   cout << endl;
 }
 
-int main() {
+int main()
+{
   int n;
   cin >> n;
 
-  int* arr = new int[n];
-  for (int i = 0 ; i < n; i++) {
+  int *arr = new int[n];
+  for (int i = 0; i < n; i++)
+  {
     cin >> arr[i];
   }
   reverse(arr, n);

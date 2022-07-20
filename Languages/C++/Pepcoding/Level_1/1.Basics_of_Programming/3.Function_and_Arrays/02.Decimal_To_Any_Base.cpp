@@ -1,9 +1,11 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int dtob(int n, int b) { // dtob = Decimal to any base.
+int dtob(int n, int b)
+{ // dtob = Decimal to any base.
   int power = 1;
   int ans = 0;
-  while (n > 0) {
+  while (n > 0)
+  {
     int digit = n % b;
     ans += (digit * power);
     power *= 10;
@@ -11,7 +13,8 @@ int dtob(int n, int b) { // dtob = Decimal to any base.
   }
   return ans;
 }
-int main() {
+int main()
+{
   int n, b;
   cin >> n >> b;
   cout << dtob(n, b);

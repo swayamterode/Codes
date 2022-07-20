@@ -1,11 +1,13 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
   int n;
   cin >> n;
-  int* arr = new int[n];
-  for (int i = 0 ; i < n; i++) {
+  int *arr = new int[n];
+  for (int i = 0; i < n; i++)
+  {
     cin >> arr[i];
   }
   int data;
@@ -14,18 +16,22 @@ int main() {
   int high = n - 1;
   int ceil = -1;
   int floor = -1;
-  while (low <= high) {
-    int mid = (low + high ) / 2;
-    if (arr[mid] == data) {
+  while (low <= high)
+  {
+    int mid = (low + high) / 2;
+    if (arr[mid] == data)
+    {
       ceil = data;
       floor = data;
       break;
     }
-    else if (arr[mid] < data) {
+    else if (arr[mid] < data)
+    {
       floor = arr[mid];
       low = mid + 1;
     }
-    else {
+    else
+    {
       ceil = arr[mid];
       high = mid - 1;
     }

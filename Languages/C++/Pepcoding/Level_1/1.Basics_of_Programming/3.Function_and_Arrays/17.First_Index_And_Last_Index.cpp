@@ -1,11 +1,13 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
   int n;
   cin >> n;
-  int* arr = new int[n];
-  for (int i = 0 ; i < n; i++) {
+  int *arr = new int[n];
+  for (int i = 0; i < n; i++)
+  {
     cin >> arr[i];
   }
   int data;
@@ -14,16 +16,20 @@ int main() {
   int last_index = -1;
   int low = 0, high = n - 1;
 
-  while (low <= high) {
-    int  mid = (low + high) / 2;
+  while (low <= high)
+  {
+    int mid = (low + high) / 2;
 
-    if (data < arr[mid]) {
+    if (data < arr[mid])
+    {
       high = mid - 1;
     }
-    else if (data > arr[mid]) {
+    else if (data > arr[mid])
+    {
       low = mid + 1;
     }
-    else {
+    else
+    {
       last_index = mid;
       low = mid + 1;
     }
@@ -31,15 +37,19 @@ int main() {
 
   low = 0;
   high = n - 1;
-  while (low <= high) {
-    int  mid = (low + high) / 2;
-    if (data < arr[mid]) {
+  while (low <= high)
+  {
+    int mid = (low + high) / 2;
+    if (data < arr[mid])
+    {
       high = mid - 1;
     }
-    else if (data > arr[mid]) {
+    else if (data > arr[mid])
+    {
       low = mid + 1;
     }
-    else {
+    else
+    {
       first_index = mid;
       high = mid - 1;
     }
