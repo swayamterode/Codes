@@ -15,7 +15,7 @@
   | [**136. Single Number**](https://leetcode.com/problems/single-number/)|`Array`| **Easy**| [Solution](../Array/0136.Single_Number.cpp) |
   | [**217. Contains Duplicate**](https://leetcode.com/problems/contains-duplicate/) | `Array`|**Easy** | [Solution](../Array/0217.Contains_Duplicate.cpp) |
   | [**287. Find the Duplicate Number**](https://leetcode.com/problems/find-the-duplicate-number/) | `Array`|**Easy** | [Solution](../Array/0287.Find_the_Duplicate_Number.cpp) |
-  | [704. Binary Search](https://leetcode.com/problems/binary-search/)| `Array` | **Easy** | [Solution](../Array/0704.Binary_Search.cpp)
+  | [704. Binary Search](https://leetcode.com/problems/binary-search/)| `Array` | **Easy** | [Solution](../Array/0704.Binary_Search.cpp)|
   | [**832. Flipping an Image**](https://leetcode.com/problems/flipping-an-image/) |`Array`| **Easy** | [Solution](../Array/0832.Flipping_an_Image.cpp) |
   | [**1313. Decompress Run-Length Encoded List**](https://leetcode.com/problems/decompress-run-length-encoded-list/) |`Array`|**Easy** | [Solution](../Array/1313.Decompress_Run-Length_Encoded_List.cpp)|
   | [**1431. Kids With the Greatest Number of Candies**](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | `Array`|**Easy** | [Solution](../Array/1431.Kids_With_the_Greatest_Number_of_Candies.cpp) |
