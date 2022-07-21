@@ -1,35 +1,35 @@
 # Codes
 
-- [**Development**](../Codes/DEV/)
+- [**Development**](./DEV/)
 
-  - [neoG.camp](../Codes/DEV/neoG.camp/)
-  - [Web Development](../Codes/DEV/Web_Development/)
+  - [neoG.camp](./DEV/neoG.camp/)
+  - [Web Development](./DEV/Web_Development/)
 
-- [**Languages**](../Codes/Languages/)
+- [**Languages**](./Languages/)
 
-  - [C++](../Codes/Languages/C%2B%2B/)
-    - [Pepcoding](../Codes/tree/main/Languages/C%2B%2B/Pepcoding)
-  - [JavaScript](../Codes/Languages/JavaScript/)
-  - [Python](../Codes/Languages/Python)
-  - [Shell Script](../Codes/Languages/Shell_Script)
+  - [C++](./Languages/C%2B%2B/)
+    - [Pepcoding](./Languages/C%2B%2B/Pepcoding)
+  - [JavaScript](./Languages/JavaScript/)
+  - [Python](./Languages/Python)
+  - [Shell Script](./Languages/Shell_Script)
 
-- [**Platforms**](../Codes/Platforms/)
+- [**Platforms**](./Platforms/)
 
-  - [CodeChef](../Codes/Platforms/CodeChef/)
-  - [Codestudio](../Codes/Platforms/codestudio/)
-  - [GeeksforGeeks](../Codes/Platforms/GeeksforGeeks/)
-  - [HackerRank](../Codes/Platforms/HackerRank/)
-  - [LeetCode](../Codes/Platforms/LeetCode/)
+  - [CodeChef](./Platforms/CodeChef/)
+  - [Codestudio](./Platforms/codestudio/)
+  - [GeeksforGeeks](./Platforms/GeeksforGeeks/)
+  - [HackerRank](./Platforms/HackerRank/)
+  - [LeetCode](./Platforms/LeetCode/)
 
 <div align = "center">
 
 Let's Connects
 
-[![Gmail Badge](https://github.com/swayamterode/Codes/blob/main/DEV/social/google.png)](mailto:swayamterodex@gmail.com "Connect via Email")
-[![Linkedin Badge](https://github.com/swayamterode/Codes/blob/main/DEV/social/linkedin.png)](https://www.linkedin.com/in/swayamterode/ "Connect on LinkedIn")
-[![Instagram Badge](https://github.com/swayamterode/Codes/blob/main/DEV/social/instagram.png)](https://m.me/swayamterode "Connect on Instagram")
-[![Twitter Badge](https://github.com/swayamterode/Codes/blob/main/DEV/social/twitter.png)](https://twitter.com/intent/follow?screen_name=swayamterode "Follow on Twitter")
-[![Messenger Badge](https://github.com/swayamterode/Codes/blob/main/DEV/social/messenger.png)](https://m.me/terodeswayam "Connect on Facebook")
-[![Youtube](https://github.com/swayamterode/Codes/blob/main/DEV/social/youtube.png)](https://www.youtube.com/c/ProdSwym)
+[![Gmail Badge](./DEV/social/google.png)](mailto:swayamterodex@gmail.com "Connect via Email")
+[![Linkedin Badge](./DEV/social/linkedin.png)](https://www.linkedin.com/in/swayamterode/ "Connect on LinkedIn")
+[![Instagram Badge](./DEV/social/instagram.png)](https://m.me/swayamterode "Connect on Instagram")
+[![Twitter Badge](./DEV/social/twitter.png)](https://twitter.com/intent/follow?screen_name=swayamterode "Follow on Twitter")
+[![Messenger Badge](./DEV/social/messenger.png)](https://m.me/terodeswayam "Connect on Facebook")
+[![Youtube](./DEV/social/youtube.png)](https://www.youtube.com/c/ProdSwym)
 
 </div>
